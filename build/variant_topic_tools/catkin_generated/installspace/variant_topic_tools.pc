@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/install
+
+Name: variant_topic_tools
+Description: Description of variant_topic_tools
+Version: 0.1.20
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lvariant_topic_tools
+Requires: roscpp roslib variant_msgs

@@ -1,0 +1,1 @@
+/home/pi/catkin_ws/devel/.private/my_robot_2dnav/share/my_robot_2dnav/cmake/my_robot_2dnavConfig-version.cmake

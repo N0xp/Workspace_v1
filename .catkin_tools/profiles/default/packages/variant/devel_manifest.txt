@@ -1,0 +1,2 @@
+variant/variant
+/home/pi/catkin_ws/devel/.private/variant/cmake.lock /home/pi/catkin_ws/devel/./cmake.lock

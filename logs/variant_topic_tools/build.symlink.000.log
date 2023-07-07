@@ -1,0 +1,8 @@
+Symlinking /home/pi/catkin_ws/devel/lib/libvariant_topic_tools.so
+Symlinking /home/pi/catkin_ws/devel/lib/pkgconfig/variant_topic_tools.pc
+Symlinking /home/pi/catkin_ws/devel/lib/variant_topic_tools/publish
+Symlinking /home/pi/catkin_ws/devel/lib/variant_topic_tools/echo
+Symlinking /home/pi/catkin_ws/devel/lib/variant_topic_tools/info
+Symlinking /home/pi/catkin_ws/devel/lib/variant_topic_tools/relay
+Symlinking /home/pi/catkin_ws/devel/share/variant_topic_tools/cmake/variant_topic_toolsConfig.cmake
+Symlinking /home/pi/catkin_ws/devel/share/variant_topic_tools/cmake/variant_topic_toolsConfig-version.cmake

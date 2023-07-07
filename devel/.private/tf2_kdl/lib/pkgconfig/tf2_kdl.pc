@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/devel/.private/tf2_kdl
+
+Name: tf2_kdl
+Description: Description of tf2_kdl
+Version: 0.7.6
+Cflags: -I/home/pi/catkin_ws/src/geometry2/tf2_kdl/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lorocos-kdl
+Requires: 

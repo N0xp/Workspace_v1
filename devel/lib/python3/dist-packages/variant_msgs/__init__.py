@@ -1,0 +1,1 @@
+/home/pi/catkin_ws/devel/.private/variant_msgs/lib/python3/dist-packages/variant_msgs/__init__.py

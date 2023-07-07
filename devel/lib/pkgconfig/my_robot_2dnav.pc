@@ -1,0 +1,1 @@
+/home/pi/catkin_ws/devel/.private/my_robot_2dnav/lib/pkgconfig/my_robot_2dnav.pc

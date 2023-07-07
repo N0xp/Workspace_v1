@@ -1,0 +1,7 @@
+Symlinking /home/pi/catkin_ws/devel/lib/librqt_multiplot.so
+Symlinking /home/pi/catkin_ws/devel/lib/pkgconfig/rqt_multiplot.pc
+Symlinking /home/pi/catkin_ws/devel/lib/python3/dist-packages/rqt_multiplot/__init__.py
+Symlinking /home/pi/catkin_ws/devel/share/rqt_multiplot/cmake/rqt_multiplotConfig.cmake
+Symlinking /home/pi/catkin_ws/devel/share/rqt_multiplot/cmake/rqt_multiplotConfig-version.cmake
+Symlinking /home/pi/catkin_ws/devel/bin/rqt_multiplot
+Symlinking /home/pi/catkin_ws/devel/bin/cmake.lock

@@ -1,0 +1,5 @@
+main
+/home/pi/catkin_ws/devel/.private/main/cmake.lock /home/pi/catkin_ws/devel/./cmake.lock
+/home/pi/catkin_ws/devel/.private/main/lib/pkgconfig/main.pc /home/pi/catkin_ws/devel/lib/pkgconfig/main.pc
+/home/pi/catkin_ws/devel/.private/main/share/main/cmake/mainConfig.cmake /home/pi/catkin_ws/devel/share/main/cmake/mainConfig.cmake
+/home/pi/catkin_ws/devel/.private/main/share/main/cmake/mainConfig-version.cmake /home/pi/catkin_ws/devel/share/main/cmake/mainConfig-version.cmake

@@ -1,0 +1,14 @@
+Symlinking /home/pi/catkin_ws/devel/include/amcl/AMCLConfig.h
+Symlinking /home/pi/catkin_ws/devel/lib/libamcl_sensors.so
+Symlinking /home/pi/catkin_ws/devel/lib/libamcl_pf.so
+Symlinking /home/pi/catkin_ws/devel/lib/libamcl_map.so
+Symlinking /home/pi/catkin_ws/devel/lib/pkgconfig/amcl.pc
+Symlinking /home/pi/catkin_ws/devel/lib/amcl/amcl
+Symlinking /home/pi/catkin_ws/devel/lib/python3/dist-packages/amcl/__init__.py
+Symlinking /home/pi/catkin_ws/devel/lib/python3/dist-packages/amcl/cfg/AMCLConfig.py
+Symlinking /home/pi/catkin_ws/devel/lib/python3/dist-packages/amcl/cfg/__init__.py
+Symlinking /home/pi/catkin_ws/devel/share/amcl/cmake/amclConfig.cmake
+Symlinking /home/pi/catkin_ws/devel/share/amcl/cmake/amclConfig-version.cmake
+Symlinking /home/pi/catkin_ws/devel/share/amcl/docs/AMCLConfig.dox
+Symlinking /home/pi/catkin_ws/devel/share/amcl/docs/AMCLConfig-usage.dox
+Symlinking /home/pi/catkin_ws/devel/share/amcl/docs/AMCLConfig.wikidoc

@@ -1,0 +1,310 @@
+In file included from [01m[K/usr/include/c++/8/vector:64[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/include/dwa_local_planner/dwa_planner.h:40[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp:37[m[K:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In copy constructor ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = geometry_msgs::Point_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::Point_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:463:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+    [01;36m[Kstd::__uninitialized_copy_a(__x.begin(), __x.end(),[m[K
+    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K          this->_M_impl._M_start,[m[K
+           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K          _M_get_Tp_allocator())[m[K;
+           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In copy constructor ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = geometry_msgs::PoseStamped_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:463:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+    [01;36m[Kstd::__uninitialized_copy_a(__x.begin(), __x.end(),[m[K
+    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K          this->_M_impl._M_start,[m[K
+           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K          _M_get_Tp_allocator())[m[K;
+           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In copy constructor ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = double; _Alloc = std::allocator<double>][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:463:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+    [01;36m[Kstd::__uninitialized_copy_a(__x.begin(), __x.end(),[m[K
+    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K          this->_M_impl._M_start,[m[K
+           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K          _M_get_Tp_allocator())[m[K;
+           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:63[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/include/dwa_local_planner/dwa_planner.h:40[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp:37[m[K:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >; _ForwardIterator = geometry_msgs::Point_<std::allocator<void> >*; _Tp = geometry_msgs::Point_<std::allocator<void> >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:289:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*; _Tp = geometry_msgs::PoseStamped_<std::allocator<void> >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:289:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _ForwardIterator = double*; _Tp = double][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:289:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >; _ForwardIterator = geometry_msgs::Point_<std::allocator<void> >*][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:134:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __is_trivial(_ValueType2)[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __assignable>::[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*; _Allocator = std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:311:2:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+       return [01;36m[Kstd::__uninitialized_copy_a[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K (_GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__first),[m[K
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K  _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__last), __result, __alloc)[m[K;
+   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:134:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __is_trivial(_ValueType2)[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __assignable>::[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _ForwardIterator = double*][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:134:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __is_trivial(_ValueType2)[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __assignable>::[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >; _ForwardIterator = geometry_msgs::Point_<std::allocator<void> >*; bool _TrivialValueTypes = false][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*; _Tp = geometry_msgs::PoseStamped_<std::allocator<void> >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:289:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*; bool _TrivialValueTypes = false][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _ForwardIterator = double*][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:99:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:99:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:101:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+         { return [01;36m[Kstd::copy(__first, __last, __result)[m[K; }
+                  [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:134:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __is_trivial(_ValueType2)[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __assignable>::[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:60[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/include/dwa_local_planner/dwa_planner.h:40[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp:37[m[K:
+[01m[K/usr/include/c++/8/bits/stl_algobase.h:[m[K In function ‘[01m[K_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _OI = double*][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_algobase.h:446:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+     [01;36m[Kcopy[m[K(_II __first, _II __last, _OI __result)
+     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_algobase.h:446:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_algobase.h:455:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+       return [01;36m[K(std::__copy_move_a2<__is_move_iterator<_II>::__value>[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K       (std::__miter_base(__first), std::__miter_base(__last),[m[K
+        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K        __result))[m[K;
+         [01;36m[K~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:63[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/include/dwa_local_planner/dwa_planner.h:40[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp:37[m[K:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*; bool _TrivialValueTypes = false][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:61[m[K,
+                 from [01m[K/usr/include/c++/8/vector:60[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/include/dwa_local_planner/dwa_planner.h:40[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp:37[m[K:
+[01m[K/usr/include/c++/8/bits/cpp_type_traits.h:[m[K In function ‘[01m[K_Iterator std::__miter_base(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >][m[K’:
+[01m[K/usr/include/c++/8/bits/cpp_type_traits.h:419:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+     [01;36m[K__miter_base[m[K(_Iterator __it)
+     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:60[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/include/dwa_local_planner/dwa_planner.h:40[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp:37[m[K:
+[01m[K/usr/include/c++/8/bits/stl_algobase.h:[m[K In function ‘[01m[K_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _OI = double*][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_algobase.h:420:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+     [01;36m[K__copy_move_a2[m[K(_II __first, _II __last, _OI __result)
+     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_algobase.h:420:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/8/vector:60[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/include/dwa_local_planner/dwa_planner.h:40[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp:37[m[K:
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:[m[K In function ‘[01m[K_Iterator std::__niter_base(__gnu_cxx::__normal_iterator<_Iterator, _Container>) [with _Iterator = const double*; _Container = std::vector<double>][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:987:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
+     [01;36m[K__niter_base[m[K(__gnu_cxx::__normal_iterator<_Iterator, _Container> __it)
+     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:64[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/thread_data.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_only.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/include/dwa_local_planner/dwa_planner_ros.h:41[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp:38[m[K:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In member function ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = geometry_msgs::PoseStamped_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:69[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/thread_data.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_only.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/include/dwa_local_planner/dwa_planner_ros.h:41[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp:38[m[K:
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const geometry_msgs::PoseStamped_<std::allocator<void> >&}; _Tp = geometry_msgs::PoseStamped_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::vector<geometry_msgs::PoseStamped_<std::allocator<void> > >::iterator[m[K’ {aka ‘[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’} changed in GCC 7.1
+       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/memory:65[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/include/dwa_local_planner/dwa_planner_ros.h:40[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp:38[m[K:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*; _Allocator = std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:311:2:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+       return [01;36m[Kstd::__uninitialized_copy_a[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K (_GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__first),[m[K
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K  _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__last), __result, __alloc)[m[K;
+   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*; _Tp = geometry_msgs::PoseStamped_<std::allocator<void> >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:289:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:134:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __is_trivial(_ValueType2)[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __assignable>::[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*; bool _TrivialValueTypes = false][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/8/vector:69[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/thread_data.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_only.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/include/dwa_local_planner/dwa_planner_ros.h:41[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp:38[m[K:
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function ‘[01m[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {dynamic_reconfigure::DoubleParameter_<std::allocator<void> >}; _Tp = dynamic_reconfigure::DoubleParameter_<std::allocator<void> >; _Alloc = std::allocator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/vector.tcc:109:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*, std::vector<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >, std::allocator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), std::forward<_Args>(__args)...);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {dynamic_reconfigure::DoubleParameter_<std::allocator<void> >}; _Tp = dynamic_reconfigure::DoubleParameter_<std::allocator<void> >; _Alloc = std::allocator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::vector<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >, std::allocator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> > > >::iterator[m[K’ {aka ‘[01m[K__gnu_cxx::__normal_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*, std::vector<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >, std::allocator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> > > > >[m[K’} changed in GCC 7.1
+       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/memory:65[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/include/dwa_local_planner/dwa_planner_ros.h:40[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp:38[m[K:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*; _ForwardIterator = dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*; _Allocator = std::allocator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:311:2:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+       return [01;36m[Kstd::__uninitialized_copy_a[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K (_GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__first),[m[K
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K  _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__last), __result, __alloc)[m[K;
+   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*>; _ForwardIterator = dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*; _Tp = dynamic_reconfigure::DoubleParameter_<std::allocator<void> >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:289:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*>; _ForwardIterator = dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:134:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __is_trivial(_ValueType2)[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __assignable>::[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*>; _ForwardIterator = dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*; bool _TrivialValueTypes = false][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*>[m[K’ changed in GCC 7.1

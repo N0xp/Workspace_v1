@@ -1,0 +1,307 @@
+[35m[1mScanning dependencies of target map_msgs_generate_messages_lisp[0m
+[  0%] Built target map_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[  0%] Built target nav_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[  0%] Built target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[  0%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target base_local_planner_generate_messages_cpp[0m
+[  0%] Built target base_local_planner_generate_messages_cpp
+[35m[1mScanning dependencies of target base_local_planner_generate_messages_lisp[0m
+[  0%] Built target base_local_planner_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target costmap_2d_generate_messages_nodejs[0m
+[  0%] Built target costmap_2d_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[  0%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target base_local_planner_generate_messages_eus[0m
+[  0%] Built target base_local_planner_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[  0%] Built target visualization_msgs_generate_messages_py
+[35m[1mScanning dependencies of target costmap_2d_generate_messages_eus[0m
+[  0%] Built target costmap_2d_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target costmap_2d_generate_messages_lisp[0m
+[  0%] Built target costmap_2d_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[  0%] Built target nav_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target base_local_planner_generate_messages_py[0m
+[  0%] Built target base_local_planner_generate_messages_py
+[35m[1mScanning dependencies of target costmap_2d_generate_messages_cpp[0m
+[  0%] Built target costmap_2d_generate_messages_cpp
+[35m[1mScanning dependencies of target base_local_planner_gencfg[0m
+[  0%] Built target base_local_planner_gencfg
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target costmap_2d_generate_messages_py[0m
+[  0%] Built target costmap_2d_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[  0%] Built target visualization_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  0%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[  0%] Built target nav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target map_msgs_generate_messages_py[0m
+[  0%] Built target map_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[  0%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[  0%] Built target _catkin_empty_exported_target
+[35m[1mScanning dependencies of target costmap_2d_gencfg[0m
+[  0%] Built target costmap_2d_gencfg
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target map_msgs_generate_messages_cpp[0m
+[  0%] Built target map_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target map_msgs_generate_messages_eus[0m
+[  0%] Built target map_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target base_local_planner_generate_messages_nodejs[0m
+[  0%] Built target base_local_planner_generate_messages_nodejs
+[35m[1mScanning dependencies of target map_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target map_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target carrot_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/carrot_planner.dir/src/carrot_planner.cpp.o[0m
+In file included from [01m[K/usr/include/c++/8/vector:64[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/carrot_planner/include/carrot_planner/carrot_planner.h:39[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/carrot_planner/src/carrot_planner.cpp:38[m[K:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In copy constructor ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = geometry_msgs::Point_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::Point_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:463:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+    [01;36m[Kstd::__uninitialized_copy_a(__x.begin(), __x.end(),[m[K
+    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K          this->_M_impl._M_start,[m[K
+           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K          _M_get_Tp_allocator())[m[K;
+           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In member function ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = geometry_msgs::Point_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::Point_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In member function ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = geometry_msgs::PoseStamped_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:63[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/carrot_planner/include/carrot_planner/carrot_planner.h:39[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/carrot_planner/src/carrot_planner.cpp:38[m[K:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >; _ForwardIterator = geometry_msgs::Point_<std::allocator<void> >*; _Tp = geometry_msgs::Point_<std::allocator<void> >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:289:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:69[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/carrot_planner/include/carrot_planner/carrot_planner.h:39[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/carrot_planner/src/carrot_planner.cpp:38[m[K:
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const geometry_msgs::Point_<std::allocator<void> >&}; _Tp = geometry_msgs::Point_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::Point_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::vector<geometry_msgs::Point_<std::allocator<void> > >::iterator[m[K’ {aka ‘[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’} changed in GCC 7.1
+       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const geometry_msgs::PoseStamped_<std::allocator<void> >&}; _Tp = geometry_msgs::PoseStamped_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::vector<geometry_msgs::PoseStamped_<std::allocator<void> > >::iterator[m[K’ {aka ‘[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’} changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/8/vector:63[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/carrot_planner/include/carrot_planner/carrot_planner.h:39[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/navigation/carrot_planner/src/carrot_planner.cpp:38[m[K:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >; _ForwardIterator = geometry_msgs::Point_<std::allocator<void> >*][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:134:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __is_trivial(_ValueType2)[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __assignable>::[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = geometry_msgs::Point_<std::allocator<void> >*; _ForwardIterator = geometry_msgs::Point_<std::allocator<void> >*; _Allocator = std::allocator<geometry_msgs::Point_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:311:2:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::Point_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+       return [01;36m[Kstd::__uninitialized_copy_a[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K (_GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__first),[m[K
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K  _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__last), __result, __alloc)[m[K;
+   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*; _Allocator = std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:311:2:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+       return [01;36m[Kstd::__uninitialized_copy_a[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K (_GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__first),[m[K
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K  _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__last), __result, __alloc)[m[K;
+   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >; _ForwardIterator = geometry_msgs::Point_<std::allocator<void> >*; bool _TrivialValueTypes = false][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<geometry_msgs::Point_<std::allocator<void> >*>; _ForwardIterator = geometry_msgs::Point_<std::allocator<void> >*; _Tp = geometry_msgs::Point_<std::allocator<void> >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::Point_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::Point_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:289:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::Point_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*; _Tp = geometry_msgs::PoseStamped_<std::allocator<void> >][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:287:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:289:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<geometry_msgs::Point_<std::allocator<void> >*>; _ForwardIterator = geometry_msgs::Point_<std::allocator<void> >*][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::Point_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::Point_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:134:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::Point_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __is_trivial(_ValueType2)[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __assignable>::[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:115:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:134:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __is_trivial(_ValueType2)[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K           && __assignable>::[m[K
+            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<geometry_msgs::Point_<std::allocator<void> >*>; _ForwardIterator = geometry_msgs::Point_<std::allocator<void> >*; bool _TrivialValueTypes = false][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::Point_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::Point_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>; _ForwardIterator = geometry_msgs::PoseStamped_<std::allocator<void> >*; bool _TrivialValueTypes = false][m[K’:
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<geometry_msgs::PoseStamped_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[100%] [32m[1mLinking CXX shared library /home/pi/catkin_ws/devel/.private/carrot_planner/lib/libcarrot_planner.so[0m
+[100%] Built target carrot_planner

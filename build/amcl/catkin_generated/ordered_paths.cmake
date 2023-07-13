@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/opt/ros/noetic/lib")
+set(ORDERED_PATHS "/home/pi/catkin_ws/devel/.private/tf2/lib;/home/pi/catkin_ws/devel/.private/tf2_ros/lib;/opt/ros/noetic/lib")

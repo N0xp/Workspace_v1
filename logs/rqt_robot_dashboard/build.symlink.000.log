@@ -1,0 +1,4 @@
+Symlinking /home/pi/catkin_ws/devel/lib/pkgconfig/rqt_robot_dashboard.pc
+Symlinking /home/pi/catkin_ws/devel/lib/python3/dist-packages/rqt_robot_dashboard/__init__.py
+Symlinking /home/pi/catkin_ws/devel/share/rqt_robot_dashboard/cmake/rqt_robot_dashboardConfig-version.cmake
+Symlinking /home/pi/catkin_ws/devel/share/rqt_robot_dashboard/cmake/rqt_robot_dashboardConfig.cmake

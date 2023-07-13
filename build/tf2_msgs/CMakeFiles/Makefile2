@@ -237,7 +237,6 @@ CMakeFiles/tf2_msgs_generate_messages_py.dir/clean:
 # Target rules for target CMakeFiles/tf2_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all: CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformActionGoal.dir/all
 CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all: CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformAction.dir/all
 CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
@@ -250,6 +249,7 @@ CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all: CMakeFiles/_tf2_msgs_generat
 CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all: CMakeFiles/_tf2_msgs_generate_messages_check_deps_TFMessage.dir/all
 CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all: CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformGoal.dir/all
 CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all: CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformFeedback.dir/all
+CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/tf2_msgs/CMakeFiles --progress-num=30,31,32,33,34,35,36,37,38,39 "Built target tf2_msgs_generate_messages_lisp"

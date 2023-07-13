@@ -26,6 +26,8 @@ find_package(catkin REQUIRED COMPONENTS
   tf
   sensor_msgs
   std_msgs 
+  move_base
+  move_base_msgs
   
 )
 
@@ -254,35 +256,6 @@ target_link_libraries(drive_enc_node
 		  ${catkin_EXPORTED_TARGETS}
 			${PROJECT_NAME}_gencfg)
 	  
-add_executable(odom_pub_node src/odom_pub_node.cpp)
-target_link_libraries(odom_pub_node 
-		  vmxpi_hal 
-		  navx_ros_wrapper 
-		  titandriver_ros 
-		  titandriver_ros_wrapper 
-		  cobra_ros 
-		  sharp_ros
-		  servo_ros 
-		  ultrasonic_ros
-			iowd_ros
-		  digitalin_ros
-		  digitalout_ros
-		  ${catkin_LIBRARIES}
-	  )
-add_dependencies(odom_pub_node 
-		navx_ros_wrapper 
-		  titandriver_ros 
-		  titandriver_ros_wrapper 
-		  cobra_ros 
-		  sharp_ros
-		  servo_ros 
-		  ultrasonic_ros
-			iowd_ros
-		  digitalin_ros
-		  digitalout_ros
-		  ${main_node_EXPORTED_TARGETS}
-		  ${catkin_EXPORTED_TARGETS}
-			${PROJECT_NAME}_gencfg)		
 
 add_executable(odom_sub_node src/odom_sub_node.cpp)
 target_link_libraries(odom_sub_node 
@@ -313,96 +286,6 @@ add_dependencies(odom_sub_node
 		  ${main_node_EXPORTED_TARGETS}
 		  ${catkin_EXPORTED_TARGETS}
 		  ${PROJECT_NAME}_gencfg)		
-
-add_executable(Task2_sensors_node src/Task2_sensors_node.cpp)
-target_link_libraries(Task2_sensors_node 
-		  vmxpi_hal 
-		  navx_ros_wrapper 
-		  titandriver_ros 
-		  titandriver_ros_wrapper 
-		  cobra_ros 
-		  sharp_ros
-		  servo_ros 
-		  ultrasonic_ros
-			iowd_ros
-		  digitalin_ros
-		  digitalout_ros
-		  ${catkin_LIBRARIES}
-	  )
-add_dependencies(Task2_sensors_node 
-			navx_ros_wrapper 
-		  titandriver_ros 
-		  titandriver_ros_wrapper 
-		  cobra_ros 
-		  sharp_ros
-		  servo_ros 
-		  ultrasonic_ros
-			iowd_ros
-		  digitalin_ros
-		  digitalout_ros
-		  ${main_node_EXPORTED_TARGETS}
-		  ${catkin_EXPORTED_TARGETS}
-			${PROJECT_NAME}_gencfg)	
-
-		add_executable(Task3_teleop_node src/Task3_teleop_node.cpp)
-target_link_libraries(Task3_teleop_node 
-		  vmxpi_hal 
-		  navx_ros_wrapper 
-		  titandriver_ros 
-		  titandriver_ros_wrapper 
-		  cobra_ros 
-		  sharp_ros
-		  servo_ros 
-		  ultrasonic_ros
-			iowd_ros
-		  digitalin_ros
-		  digitalout_ros
-		  ${catkin_LIBRARIES}
-	  )
-add_dependencies(Task3_teleop_node 
-			navx_ros_wrapper 
-		  titandriver_ros 
-		  titandriver_ros_wrapper 
-		  cobra_ros 
-		  sharp_ros
-		  servo_ros 
-		  ultrasonic_ros
-			iowd_ros
-		  digitalin_ros
-		  digitalout_ros
-		  ${main_node_EXPORTED_TARGETS}
-		  ${catkin_EXPORTED_TARGETS}
-			${PROJECT_NAME}_gencfg)					  		  
-add_executable(Task4_servo_node src/Task4_servo_node.cpp)
-target_link_libraries(Task4_servo_node 
-		  vmxpi_hal 
-		  navx_ros_wrapper 
-		  titandriver_ros 
-		  titandriver_ros_wrapper 
-		  cobra_ros 
-		  sharp_ros
-		  servo_ros 
-		  ultrasonic_ros
-			iowd_ros
-		  digitalin_ros
-		  digitalout_ros
-		  ${catkin_LIBRARIES}
-	  )
-add_dependencies(Task4_servo_node 
-			navx_ros_wrapper 
-		  titandriver_ros 
-		  titandriver_ros_wrapper 
-		  cobra_ros 
-		  sharp_ros
-		  servo_ros 
-		  ultrasonic_ros
-			iowd_ros
-		  digitalin_ros
-		  digitalout_ros
-		  ${main_node_EXPORTED_TARGETS}
-		  ${catkin_EXPORTED_TARGETS}
-			${PROJECT_NAME}_gencfg)	
-			
 			
 add_executable(navx_msg_conv_node src/navx_msg_conv_node.cpp)
 target_link_libraries(navx_msg_conv_node 
@@ -432,4 +315,66 @@ add_dependencies(navx_msg_conv_node
 		  digitalout_ros
 		  ${main_node_EXPORTED_TARGETS}
 		  ${catkin_EXPORTED_TARGETS}
-			${PROJECT_NAME}_gencfg)		
+			${PROJECT_NAME}_gencfg)	
+
+add_executable(Skid_steer_control src/Skid_steer_control.cpp)
+target_link_libraries(Skid_steer_control 
+		  vmxpi_hal 
+		  navx_ros_wrapper 
+		  titandriver_ros 
+		  titandriver_ros_wrapper 
+		  cobra_ros 
+		  sharp_ros
+		  servo_ros 
+		  ultrasonic_ros
+			iowd_ros
+		  digitalin_ros
+		  digitalout_ros
+		  ${catkin_LIBRARIES}
+	  )
+add_dependencies(Skid_steer_control 
+			navx_ros_wrapper 
+		  titandriver_ros 
+		  titandriver_ros_wrapper 
+		  cobra_ros 
+		  sharp_ros
+		  servo_ros 
+		  ultrasonic_ros
+			iowd_ros
+		  digitalin_ros
+		  digitalout_ros
+		  ${main_node_EXPORTED_TARGETS}
+		  ${catkin_EXPORTED_TARGETS}
+			${PROJECT_NAME}_gencfg)	
+
+			add_executable(Robot_Interface_node src/Robot_Interface_node.cpp)
+			target_link_libraries(Robot_Interface_node 
+					  vmxpi_hal 
+					  navx_ros_wrapper 
+					  titandriver_ros 
+					  titandriver_ros_wrapper 
+					  cobra_ros 
+					  sharp_ros
+					  servo_ros 
+					  ultrasonic_ros
+						iowd_ros
+					  digitalin_ros
+					  digitalout_ros
+					  ${catkin_LIBRARIES}
+				  )
+			add_dependencies(Robot_Interface_node 
+						navx_ros_wrapper 
+					  titandriver_ros 
+					  titandriver_ros_wrapper 
+					  cobra_ros 
+					  sharp_ros
+					  servo_ros 
+					  ultrasonic_ros
+						iowd_ros
+					  digitalin_ros
+					  digitalout_ros
+					  ${main_node_EXPORTED_TARGETS}
+					  ${catkin_EXPORTED_TARGETS}
+						${PROJECT_NAME}_gencfg)	
+			
+			

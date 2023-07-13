@@ -2,8 +2,8 @@
 [  0%] Built target _variant_msgs_generate_messages_check_deps_Test
 [  0%] Built target std_msgs_generate_messages_py
 [  0%] Built target _variant_msgs_generate_messages_check_deps_VariantHeader
-[  0%] Built target _variant_msgs_generate_messages_check_deps_Variant
 [  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _variant_msgs_generate_messages_check_deps_Variant
 [  0%] Built target std_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_cpp

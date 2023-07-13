@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+
+
+  <!-- The drive_bot node -->
+  <node name="move_robot" type="move_robot" pkg="move_robot" output="screen">
+  </node>
+
+
+  
+</launch>

@@ -101,6 +101,17 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -123,17 +134,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -166,6 +166,45 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named Robot_Interface_node
+
+# Build rule for target.
+Robot_Interface_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Robot_Interface_node
+.PHONY : Robot_Interface_node
+
+# fast build rule for target.
+Robot_Interface_node/fast:
+	$(MAKE) -f CMakeFiles/Robot_Interface_node.dir/build.make CMakeFiles/Robot_Interface_node.dir/build
+.PHONY : Robot_Interface_node/fast
+
+#=============================================================================
+# Target rules for targets named Skid_steer_control
+
+# Build rule for target.
+Skid_steer_control: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Skid_steer_control
+.PHONY : Skid_steer_control
+
+# fast build rule for target.
+Skid_steer_control/fast:
+	$(MAKE) -f CMakeFiles/Skid_steer_control.dir/build.make CMakeFiles/Skid_steer_control.dir/build
+.PHONY : Skid_steer_control/fast
+
+#=============================================================================
+# Target rules for targets named navx_msg_conv_node
+
+# Build rule for target.
+navx_msg_conv_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 navx_msg_conv_node
+.PHONY : navx_msg_conv_node
+
+# fast build rule for target.
+navx_msg_conv_node/fast:
+	$(MAKE) -f CMakeFiles/navx_msg_conv_node.dir/build.make CMakeFiles/navx_msg_conv_node.dir/build
+.PHONY : navx_msg_conv_node/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_nodejs
@@ -441,19 +480,6 @@ nav_msgs_generate_messages_nodejs/fast:
 .PHONY : nav_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named tests
-
-# Build rule for target.
-tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tests
-.PHONY : tests
-
-# fast build rule for target.
-tests/fast:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-.PHONY : tests/fast
-
-#=============================================================================
 # Target rules for targets named dynamic_reconfigure_gencfg
 
 # Build rule for target.
@@ -478,6 +504,19 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 std_msgs_generate_messages_cpp/fast:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named doxygen
+
+# Build rule for target.
+doxygen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 doxygen
+.PHONY : doxygen
+
+# fast build rule for target.
+doxygen/fast:
+	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
+.PHONY : doxygen/fast
 
 #=============================================================================
 # Target rules for targets named tf2_msgs_generate_messages_nodejs
@@ -517,19 +556,6 @@ roscpp_generate_messages_eus: cmake_check_build_system
 roscpp_generate_messages_eus/fast:
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named Task4_servo_node
-
-# Build rule for target.
-Task4_servo_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Task4_servo_node
-.PHONY : Task4_servo_node
-
-# fast build rule for target.
-Task4_servo_node/fast:
-	$(MAKE) -f CMakeFiles/Task4_servo_node.dir/build.make CMakeFiles/Task4_servo_node.dir/build
-.PHONY : Task4_servo_node/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_lisp
@@ -673,6 +699,19 @@ rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
 rosgraph_msgs_generate_messages_lisp/fast:
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_cpp
+
+# Build rule for target.
+move_base_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_cpp
+.PHONY : move_base_msgs_generate_messages_cpp
+
+# fast build rule for target.
+move_base_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build
+.PHONY : move_base_msgs_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_py
@@ -829,6 +868,19 @@ sensor_msgs_generate_messages_eus: cmake_check_build_system
 sensor_msgs_generate_messages_eus/fast:
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 .PHONY : sensor_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_eus
+
+# Build rule for target.
+move_base_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_eus
+.PHONY : move_base_msgs_generate_messages_eus
+
+# fast build rule for target.
+move_base_msgs_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_eus.dir/build.make CMakeFiles/move_base_msgs_generate_messages_eus.dir/build
+.PHONY : move_base_msgs_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named vmxpi_ros_generate_messages_py
@@ -1039,6 +1091,19 @@ actionlib_generate_messages_eus/fast:
 .PHONY : actionlib_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_py
+
+# Build rule for target.
+move_base_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_py
+.PHONY : move_base_msgs_generate_messages_py
+
+# fast build rule for target.
+move_base_msgs_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make CMakeFiles/move_base_msgs_generate_messages_py.dir/build
+.PHONY : move_base_msgs_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named actionlib_generate_messages_nodejs
 
 # Build rule for target.
@@ -1050,6 +1115,58 @@ actionlib_generate_messages_nodejs: cmake_check_build_system
 actionlib_generate_messages_nodejs/fast:
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 .PHONY : actionlib_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named move_base_gencfg
+
+# Build rule for target.
+move_base_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_gencfg
+.PHONY : move_base_gencfg
+
+# fast build rule for target.
+move_base_gencfg/fast:
+	$(MAKE) -f CMakeFiles/move_base_gencfg.dir/build.make CMakeFiles/move_base_gencfg.dir/build
+.PHONY : move_base_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named tests
+
+# Build rule for target.
+tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tests
+.PHONY : tests
+
+# fast build rule for target.
+tests/fast:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
+.PHONY : tests/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_lisp
+
+# Build rule for target.
+move_base_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_lisp
+.PHONY : move_base_msgs_generate_messages_lisp
+
+# fast build rule for target.
+move_base_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build
+.PHONY : move_base_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_nodejs
+
+# Build rule for target.
+move_base_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_nodejs
+.PHONY : move_base_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+move_base_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build
+.PHONY : move_base_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named vmxpi_ros_bringup_gencfg
@@ -1078,19 +1195,6 @@ drive_keyboard_teleop_node/fast:
 .PHONY : drive_keyboard_teleop_node/fast
 
 #=============================================================================
-# Target rules for targets named odom_pub_node
-
-# Build rule for target.
-odom_pub_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 odom_pub_node
-.PHONY : odom_pub_node
-
-# fast build rule for target.
-odom_pub_node/fast:
-	$(MAKE) -f CMakeFiles/odom_pub_node.dir/build.make CMakeFiles/odom_pub_node.dir/build
-.PHONY : odom_pub_node/fast
-
-#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -1115,58 +1219,6 @@ odom_sub_node: cmake_check_build_system
 odom_sub_node/fast:
 	$(MAKE) -f CMakeFiles/odom_sub_node.dir/build.make CMakeFiles/odom_sub_node.dir/build
 .PHONY : odom_sub_node/fast
-
-#=============================================================================
-# Target rules for targets named doxygen
-
-# Build rule for target.
-doxygen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 doxygen
-.PHONY : doxygen
-
-# fast build rule for target.
-doxygen/fast:
-	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-.PHONY : doxygen/fast
-
-#=============================================================================
-# Target rules for targets named Task3_teleop_node
-
-# Build rule for target.
-Task3_teleop_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Task3_teleop_node
-.PHONY : Task3_teleop_node
-
-# fast build rule for target.
-Task3_teleop_node/fast:
-	$(MAKE) -f CMakeFiles/Task3_teleop_node.dir/build.make CMakeFiles/Task3_teleop_node.dir/build
-.PHONY : Task3_teleop_node/fast
-
-#=============================================================================
-# Target rules for targets named Task2_sensors_node
-
-# Build rule for target.
-Task2_sensors_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Task2_sensors_node
-.PHONY : Task2_sensors_node
-
-# fast build rule for target.
-Task2_sensors_node/fast:
-	$(MAKE) -f CMakeFiles/Task2_sensors_node.dir/build.make CMakeFiles/Task2_sensors_node.dir/build
-.PHONY : Task2_sensors_node/fast
-
-#=============================================================================
-# Target rules for targets named navx_msg_conv_node
-
-# Build rule for target.
-navx_msg_conv_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 navx_msg_conv_node
-.PHONY : navx_msg_conv_node
-
-# fast build rule for target.
-navx_msg_conv_node/fast:
-	$(MAKE) -f CMakeFiles/navx_msg_conv_node.dir/build.make CMakeFiles/navx_msg_conv_node.dir/build
-.PHONY : navx_msg_conv_node/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -1220,86 +1272,59 @@ gtest/fast:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-src/Task2_sensors_node.o: src/Task2_sensors_node.cpp.o
+src/Robot_Interface_node.o: src/Robot_Interface_node.cpp.o
 
-.PHONY : src/Task2_sensors_node.o
-
-# target to build an object file
-src/Task2_sensors_node.cpp.o:
-	$(MAKE) -f CMakeFiles/Task2_sensors_node.dir/build.make CMakeFiles/Task2_sensors_node.dir/src/Task2_sensors_node.cpp.o
-.PHONY : src/Task2_sensors_node.cpp.o
-
-src/Task2_sensors_node.i: src/Task2_sensors_node.cpp.i
-
-.PHONY : src/Task2_sensors_node.i
-
-# target to preprocess a source file
-src/Task2_sensors_node.cpp.i:
-	$(MAKE) -f CMakeFiles/Task2_sensors_node.dir/build.make CMakeFiles/Task2_sensors_node.dir/src/Task2_sensors_node.cpp.i
-.PHONY : src/Task2_sensors_node.cpp.i
-
-src/Task2_sensors_node.s: src/Task2_sensors_node.cpp.s
-
-.PHONY : src/Task2_sensors_node.s
-
-# target to generate assembly for a file
-src/Task2_sensors_node.cpp.s:
-	$(MAKE) -f CMakeFiles/Task2_sensors_node.dir/build.make CMakeFiles/Task2_sensors_node.dir/src/Task2_sensors_node.cpp.s
-.PHONY : src/Task2_sensors_node.cpp.s
-
-src/Task3_teleop_node.o: src/Task3_teleop_node.cpp.o
-
-.PHONY : src/Task3_teleop_node.o
+.PHONY : src/Robot_Interface_node.o
 
 # target to build an object file
-src/Task3_teleop_node.cpp.o:
-	$(MAKE) -f CMakeFiles/Task3_teleop_node.dir/build.make CMakeFiles/Task3_teleop_node.dir/src/Task3_teleop_node.cpp.o
-.PHONY : src/Task3_teleop_node.cpp.o
+src/Robot_Interface_node.cpp.o:
+	$(MAKE) -f CMakeFiles/Robot_Interface_node.dir/build.make CMakeFiles/Robot_Interface_node.dir/src/Robot_Interface_node.cpp.o
+.PHONY : src/Robot_Interface_node.cpp.o
 
-src/Task3_teleop_node.i: src/Task3_teleop_node.cpp.i
+src/Robot_Interface_node.i: src/Robot_Interface_node.cpp.i
 
-.PHONY : src/Task3_teleop_node.i
+.PHONY : src/Robot_Interface_node.i
 
 # target to preprocess a source file
-src/Task3_teleop_node.cpp.i:
-	$(MAKE) -f CMakeFiles/Task3_teleop_node.dir/build.make CMakeFiles/Task3_teleop_node.dir/src/Task3_teleop_node.cpp.i
-.PHONY : src/Task3_teleop_node.cpp.i
+src/Robot_Interface_node.cpp.i:
+	$(MAKE) -f CMakeFiles/Robot_Interface_node.dir/build.make CMakeFiles/Robot_Interface_node.dir/src/Robot_Interface_node.cpp.i
+.PHONY : src/Robot_Interface_node.cpp.i
 
-src/Task3_teleop_node.s: src/Task3_teleop_node.cpp.s
+src/Robot_Interface_node.s: src/Robot_Interface_node.cpp.s
 
-.PHONY : src/Task3_teleop_node.s
+.PHONY : src/Robot_Interface_node.s
 
 # target to generate assembly for a file
-src/Task3_teleop_node.cpp.s:
-	$(MAKE) -f CMakeFiles/Task3_teleop_node.dir/build.make CMakeFiles/Task3_teleop_node.dir/src/Task3_teleop_node.cpp.s
-.PHONY : src/Task3_teleop_node.cpp.s
+src/Robot_Interface_node.cpp.s:
+	$(MAKE) -f CMakeFiles/Robot_Interface_node.dir/build.make CMakeFiles/Robot_Interface_node.dir/src/Robot_Interface_node.cpp.s
+.PHONY : src/Robot_Interface_node.cpp.s
 
-src/Task4_servo_node.o: src/Task4_servo_node.cpp.o
+src/Skid_steer_control.o: src/Skid_steer_control.cpp.o
 
-.PHONY : src/Task4_servo_node.o
+.PHONY : src/Skid_steer_control.o
 
 # target to build an object file
-src/Task4_servo_node.cpp.o:
-	$(MAKE) -f CMakeFiles/Task4_servo_node.dir/build.make CMakeFiles/Task4_servo_node.dir/src/Task4_servo_node.cpp.o
-.PHONY : src/Task4_servo_node.cpp.o
+src/Skid_steer_control.cpp.o:
+	$(MAKE) -f CMakeFiles/Skid_steer_control.dir/build.make CMakeFiles/Skid_steer_control.dir/src/Skid_steer_control.cpp.o
+.PHONY : src/Skid_steer_control.cpp.o
 
-src/Task4_servo_node.i: src/Task4_servo_node.cpp.i
+src/Skid_steer_control.i: src/Skid_steer_control.cpp.i
 
-.PHONY : src/Task4_servo_node.i
+.PHONY : src/Skid_steer_control.i
 
 # target to preprocess a source file
-src/Task4_servo_node.cpp.i:
-	$(MAKE) -f CMakeFiles/Task4_servo_node.dir/build.make CMakeFiles/Task4_servo_node.dir/src/Task4_servo_node.cpp.i
-.PHONY : src/Task4_servo_node.cpp.i
+src/Skid_steer_control.cpp.i:
+	$(MAKE) -f CMakeFiles/Skid_steer_control.dir/build.make CMakeFiles/Skid_steer_control.dir/src/Skid_steer_control.cpp.i
+.PHONY : src/Skid_steer_control.cpp.i
 
-src/Task4_servo_node.s: src/Task4_servo_node.cpp.s
+src/Skid_steer_control.s: src/Skid_steer_control.cpp.s
 
-.PHONY : src/Task4_servo_node.s
+.PHONY : src/Skid_steer_control.s
 
 # target to generate assembly for a file
-src/Task4_servo_node.cpp.s:
-	$(MAKE) -f CMakeFiles/Task4_servo_node.dir/build.make CMakeFiles/Task4_servo_node.dir/src/Task4_servo_node.cpp.s
-.PHONY : src/Task4_servo_node.cpp.s
+src/Skid_steer_control.cpp.s:
+	$(MAKE) -f CMakeFiles/Skid_steer_control.dir/build.make CMakeFiles/Skid_steer_control.dir/src/Skid_steer_control.cpp.s
+.PHONY : src/Skid_steer_control.cpp.s
 
 src/drive_enc_node.o: src/drive_enc_node.cpp.o
 
@@ -1409,33 +1434,6 @@ src/navx_msg_conv_node.cpp.s:
 	$(MAKE) -f CMakeFiles/navx_msg_conv_node.dir/build.make CMakeFiles/navx_msg_conv_node.dir/src/navx_msg_conv_node.cpp.s
 .PHONY : src/navx_msg_conv_node.cpp.s
 
-src/odom_pub_node.o: src/odom_pub_node.cpp.o
-
-.PHONY : src/odom_pub_node.o
-
-# target to build an object file
-src/odom_pub_node.cpp.o:
-	$(MAKE) -f CMakeFiles/odom_pub_node.dir/build.make CMakeFiles/odom_pub_node.dir/src/odom_pub_node.cpp.o
-.PHONY : src/odom_pub_node.cpp.o
-
-src/odom_pub_node.i: src/odom_pub_node.cpp.i
-
-.PHONY : src/odom_pub_node.i
-
-# target to preprocess a source file
-src/odom_pub_node.cpp.i:
-	$(MAKE) -f CMakeFiles/odom_pub_node.dir/build.make CMakeFiles/odom_pub_node.dir/src/odom_pub_node.cpp.i
-.PHONY : src/odom_pub_node.cpp.i
-
-src/odom_pub_node.s: src/odom_pub_node.cpp.s
-
-.PHONY : src/odom_pub_node.s
-
-# target to generate assembly for a file
-src/odom_pub_node.cpp.s:
-	$(MAKE) -f CMakeFiles/odom_pub_node.dir/build.make CMakeFiles/odom_pub_node.dir/src/odom_pub_node.cpp.s
-.PHONY : src/odom_pub_node.cpp.s
-
 src/odom_sub_node.o: src/odom_sub_node.cpp.o
 
 .PHONY : src/odom_sub_node.o
@@ -1500,6 +1498,10 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... Robot_Interface_node"
+	@echo "... Skid_steer_control"
+	@echo "... navx_msg_conv_node"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... vmxpi_ros_generate_messages_lisp"
@@ -1522,13 +1524,12 @@ help:
 	@echo "... run_tests"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... nav_msgs_generate_messages_nodejs"
-	@echo "... tests"
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... doxygen"
 	@echo "... tf2_msgs_generate_messages_nodejs"
 	@echo "... download_extra_data"
 	@echo "... roscpp_generate_messages_eus"
-	@echo "... Task4_servo_node"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... edit_cache"
 	@echo "... tf2_msgs_generate_messages_eus"
@@ -1541,6 +1542,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... clean_test_results"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... move_base_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_py"
@@ -1553,6 +1555,7 @@ help:
 	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_eus"
+	@echo "... move_base_msgs_generate_messages_eus"
 	@echo "... vmxpi_ros_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_lisp"
@@ -1569,30 +1572,26 @@ help:
 	@echo "... actionlib_generate_messages_py"
 	@echo "... test_node"
 	@echo "... actionlib_generate_messages_eus"
+	@echo "... move_base_msgs_generate_messages_py"
 	@echo "... actionlib_generate_messages_nodejs"
+	@echo "... move_base_gencfg"
+	@echo "... tests"
+	@echo "... move_base_msgs_generate_messages_lisp"
+	@echo "... move_base_msgs_generate_messages_nodejs"
 	@echo "... vmxpi_ros_bringup_gencfg"
 	@echo "... drive_keyboard_teleop_node"
-	@echo "... odom_pub_node"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... odom_sub_node"
-	@echo "... doxygen"
-	@echo "... Task3_teleop_node"
-	@echo "... Task2_sensors_node"
-	@echo "... test"
-	@echo "... navx_msg_conv_node"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... src/Task2_sensors_node.o"
-	@echo "... src/Task2_sensors_node.i"
-	@echo "... src/Task2_sensors_node.s"
-	@echo "... src/Task3_teleop_node.o"
-	@echo "... src/Task3_teleop_node.i"
-	@echo "... src/Task3_teleop_node.s"
-	@echo "... src/Task4_servo_node.o"
-	@echo "... src/Task4_servo_node.i"
-	@echo "... src/Task4_servo_node.s"
+	@echo "... src/Robot_Interface_node.o"
+	@echo "... src/Robot_Interface_node.i"
+	@echo "... src/Robot_Interface_node.s"
+	@echo "... src/Skid_steer_control.o"
+	@echo "... src/Skid_steer_control.i"
+	@echo "... src/Skid_steer_control.s"
 	@echo "... src/drive_enc_node.o"
 	@echo "... src/drive_enc_node.i"
 	@echo "... src/drive_enc_node.s"
@@ -1605,9 +1604,6 @@ help:
 	@echo "... src/navx_msg_conv_node.o"
 	@echo "... src/navx_msg_conv_node.i"
 	@echo "... src/navx_msg_conv_node.s"
-	@echo "... src/odom_pub_node.o"
-	@echo "... src/odom_pub_node.i"
-	@echo "... src/odom_pub_node.s"
 	@echo "... src/odom_sub_node.o"
 	@echo "... src/odom_sub_node.i"
 	@echo "... src/odom_sub_node.s"

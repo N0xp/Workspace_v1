@@ -1,0 +1,6 @@
+rqt_robot_dashboard
+/home/pi/catkin_ws/devel/.private/rqt_robot_dashboard/cmake.lock /home/pi/catkin_ws/devel/./cmake.lock
+/home/pi/catkin_ws/devel/.private/rqt_robot_dashboard/lib/pkgconfig/rqt_robot_dashboard.pc /home/pi/catkin_ws/devel/lib/pkgconfig/rqt_robot_dashboard.pc
+/home/pi/catkin_ws/devel/.private/rqt_robot_dashboard/lib/python3/dist-packages/rqt_robot_dashboard/__init__.py /home/pi/catkin_ws/devel/lib/python3/dist-packages/rqt_robot_dashboard/__init__.py
+/home/pi/catkin_ws/devel/.private/rqt_robot_dashboard/share/rqt_robot_dashboard/cmake/rqt_robot_dashboardConfig-version.cmake /home/pi/catkin_ws/devel/share/rqt_robot_dashboard/cmake/rqt_robot_dashboardConfig-version.cmake
+/home/pi/catkin_ws/devel/.private/rqt_robot_dashboard/share/rqt_robot_dashboard/cmake/rqt_robot_dashboardConfig.cmake /home/pi/catkin_ws/devel/share/rqt_robot_dashboard/cmake/rqt_robot_dashboardConfig.cmake

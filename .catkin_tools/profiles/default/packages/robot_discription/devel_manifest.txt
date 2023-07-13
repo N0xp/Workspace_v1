@@ -1,0 +1,5 @@
+robot_discription
+/home/pi/catkin_ws/devel/.private/robot_discription/cmake.lock /home/pi/catkin_ws/devel/./cmake.lock
+/home/pi/catkin_ws/devel/.private/robot_discription/lib/pkgconfig/robot_discription.pc /home/pi/catkin_ws/devel/lib/pkgconfig/robot_discription.pc
+/home/pi/catkin_ws/devel/.private/robot_discription/share/robot_discription/cmake/robot_discriptionConfig.cmake /home/pi/catkin_ws/devel/share/robot_discription/cmake/robot_discriptionConfig.cmake
+/home/pi/catkin_ws/devel/.private/robot_discription/share/robot_discription/cmake/robot_discriptionConfig-version.cmake /home/pi/catkin_ws/devel/share/robot_discription/cmake/robot_discriptionConfig-version.cmake

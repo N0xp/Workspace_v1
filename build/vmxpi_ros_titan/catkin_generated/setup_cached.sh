@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/pi/catkin_ws/devel/.private/vmxpi_ros_titan:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/pi/catkin_ws/devel/.private/vmxpi_ros_titan/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/pi/catkin_ws/devel/.private/vmxpi_ros_titan/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/pi/catkin_ws/build/vmxpi_ros_titan'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/pi/catkin_ws/devel/.private/vmxpi_ros_titan/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/pi/catkin_ws/src/vmxpi_ros/vmxpi_ros_titan:$ROS_PACKAGE_PATH"

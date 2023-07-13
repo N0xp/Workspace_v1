@@ -788,23 +788,6 @@ CMakeFiles/obstacle_tests.dir/clean:
 # Target rules for target CMakeFiles/costmap_2d_node.dir
 
 # All Build rule for target.
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/costmap_2d_gencfg.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/map_msgs_generate_messages_cpp.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/map_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/map_msgs_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
 CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
 CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
@@ -861,6 +844,23 @@ CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/tf_generate_messages_nodejs.dir/a
 CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/costmap_2d_gencfg.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/map_msgs_generate_messages_cpp.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/map_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/map_msgs_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d_node.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
 	$(MAKE) -f CMakeFiles/costmap_2d_node.dir/build.make CMakeFiles/costmap_2d_node.dir/depend
 	$(MAKE) -f CMakeFiles/costmap_2d_node.dir/build.make CMakeFiles/costmap_2d_node.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/costmap_2d/CMakeFiles --progress-num=32,33 "Built target costmap_2d_node"
@@ -887,23 +887,6 @@ CMakeFiles/costmap_2d_node.dir/clean:
 # Target rules for target CMakeFiles/layers.dir
 
 # All Build rule for target.
-CMakeFiles/layers.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/costmap_2d_gencfg.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/map_msgs_generate_messages_cpp.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/map_msgs_generate_messages_eus.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/map_msgs_generate_messages_lisp.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
-CMakeFiles/layers.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
 CMakeFiles/layers.dir/all: CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 CMakeFiles/layers.dir/all: CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
 CMakeFiles/layers.dir/all: CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
@@ -960,6 +943,23 @@ CMakeFiles/layers.dir/all: CMakeFiles/tf_generate_messages_nodejs.dir/all
 CMakeFiles/layers.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 CMakeFiles/layers.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/layers.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/costmap_2d_gencfg.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/map_msgs_generate_messages_cpp.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/map_msgs_generate_messages_eus.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/map_msgs_generate_messages_lisp.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
+CMakeFiles/layers.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
 	$(MAKE) -f CMakeFiles/layers.dir/build.make CMakeFiles/layers.dir/depend
 	$(MAKE) -f CMakeFiles/layers.dir/build.make CMakeFiles/layers.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/costmap_2d/CMakeFiles --progress-num=48,49,50,51,52,53 "Built target layers"
@@ -986,23 +986,6 @@ CMakeFiles/layers.dir/clean:
 # Target rules for target CMakeFiles/costmap_2d.dir
 
 # All Build rule for target.
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/costmap_2d_gencfg.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/map_msgs_generate_messages_cpp.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/map_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/map_msgs_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
 CMakeFiles/costmap_2d.dir/all: CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 CMakeFiles/costmap_2d.dir/all: CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
 CMakeFiles/costmap_2d.dir/all: CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
@@ -1058,6 +1041,23 @@ CMakeFiles/costmap_2d.dir/all: CMakeFiles/tf_generate_messages_nodejs.dir/all
 CMakeFiles/costmap_2d.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 CMakeFiles/costmap_2d.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/costmap_2d.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/costmap_2d_gencfg.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/map_msgs_generate_messages_cpp.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/map_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/map_msgs_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
 	$(MAKE) -f CMakeFiles/costmap_2d.dir/build.make CMakeFiles/costmap_2d.dir/depend
 	$(MAKE) -f CMakeFiles/costmap_2d.dir/build.make CMakeFiles/costmap_2d.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/costmap_2d/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15 "Built target costmap_2d"
@@ -1197,10 +1197,10 @@ CMakeFiles/costmap_2d_gennodejs.dir/clean:
 # Target rules for target CMakeFiles/costmap_2d_generate_messages_nodejs.dir
 
 # All Build rule for target.
-CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all: CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all: CMakeFiles/_costmap_2d_generate_messages_check_deps_VoxelGrid.dir/all
 CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all: CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build.make CMakeFiles/costmap_2d_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build.make CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/costmap_2d/CMakeFiles --progress-num=27 "Built target costmap_2d_generate_messages_nodejs"
@@ -1363,23 +1363,6 @@ CMakeFiles/tf2_msgs_generate_messages_eus.dir/clean:
 # Target rules for target CMakeFiles/costmap_2d_cloud.dir
 
 # All Build rule for target.
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/costmap_2d_gencfg.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/map_msgs_generate_messages_cpp.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/map_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/map_msgs_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
 CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
 CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
@@ -1436,6 +1419,23 @@ CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/tf_generate_messages_nodejs.dir/
 CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/costmap_2d_gencfg.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/map_msgs_generate_messages_cpp.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/map_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/map_msgs_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d_cloud.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
 	$(MAKE) -f CMakeFiles/costmap_2d_cloud.dir/build.make CMakeFiles/costmap_2d_cloud.dir/depend
 	$(MAKE) -f CMakeFiles/costmap_2d_cloud.dir/build.make CMakeFiles/costmap_2d_cloud.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/costmap_2d/CMakeFiles --progress-num=16,17 "Built target costmap_2d_cloud"
@@ -1875,23 +1875,6 @@ CMakeFiles/tests.dir/clean:
 # Target rules for target CMakeFiles/costmap_2d_markers.dir
 
 # All Build rule for target.
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/costmap_2d_gencfg.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/map_msgs_generate_messages_cpp.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/map_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/map_msgs_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
-CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
 CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
 CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
@@ -1948,6 +1931,23 @@ CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/tf_generate_messages_nodejs.di
 CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/costmap_2d_gencfg.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/map_msgs_generate_messages_cpp.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/map_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/map_msgs_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d_markers.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
 	$(MAKE) -f CMakeFiles/costmap_2d_markers.dir/build.make CMakeFiles/costmap_2d_markers.dir/depend
 	$(MAKE) -f CMakeFiles/costmap_2d_markers.dir/build.make CMakeFiles/costmap_2d_markers.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/costmap_2d/CMakeFiles --progress-num=30,31 "Built target costmap_2d_markers"
@@ -3383,10 +3383,10 @@ CMakeFiles/nav_msgs_generate_messages_eus.dir/clean:
 # Target rules for target CMakeFiles/costmap_2d_generate_messages_lisp.dir
 
 # All Build rule for target.
-CMakeFiles/costmap_2d_generate_messages_lisp.dir/all: CMakeFiles/map_msgs_generate_messages_lisp.dir/all
 CMakeFiles/costmap_2d_generate_messages_lisp.dir/all: CMakeFiles/_costmap_2d_generate_messages_check_deps_VoxelGrid.dir/all
 CMakeFiles/costmap_2d_generate_messages_lisp.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 CMakeFiles/costmap_2d_generate_messages_lisp.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/costmap_2d_generate_messages_lisp.dir/all: CMakeFiles/map_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f CMakeFiles/costmap_2d_generate_messages_lisp.dir/build.make CMakeFiles/costmap_2d_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/costmap_2d_generate_messages_lisp.dir/build.make CMakeFiles/costmap_2d_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/costmap_2d/CMakeFiles --progress-num=26 "Built target costmap_2d_generate_messages_lisp"
@@ -3549,11 +3549,11 @@ CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean:
 # Target rules for target CMakeFiles/costmap_2d_generate_messages.dir
 
 # All Build rule for target.
-CMakeFiles/costmap_2d_generate_messages.dir/all: CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
 CMakeFiles/costmap_2d_generate_messages.dir/all: CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 CMakeFiles/costmap_2d_generate_messages.dir/all: CMakeFiles/costmap_2d_generate_messages_eus.dir/all
 CMakeFiles/costmap_2d_generate_messages.dir/all: CMakeFiles/costmap_2d_generate_messages_py.dir/all
 CMakeFiles/costmap_2d_generate_messages.dir/all: CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+CMakeFiles/costmap_2d_generate_messages.dir/all: CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
 	$(MAKE) -f CMakeFiles/costmap_2d_generate_messages.dir/build.make CMakeFiles/costmap_2d_generate_messages.dir/depend
 	$(MAKE) -f CMakeFiles/costmap_2d_generate_messages.dir/build.make CMakeFiles/costmap_2d_generate_messages.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/costmap_2d/CMakeFiles --progress-num= "Built target costmap_2d_generate_messages"
@@ -3743,10 +3743,10 @@ CMakeFiles/costmap_tester.dir/clean:
 # Target rules for target CMakeFiles/costmap_2d_generate_messages_cpp.dir
 
 # All Build rule for target.
-CMakeFiles/costmap_2d_generate_messages_cpp.dir/all: CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 CMakeFiles/costmap_2d_generate_messages_cpp.dir/all: CMakeFiles/_costmap_2d_generate_messages_check_deps_VoxelGrid.dir/all
 CMakeFiles/costmap_2d_generate_messages_cpp.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 CMakeFiles/costmap_2d_generate_messages_cpp.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/costmap_2d_generate_messages_cpp.dir/all: CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f CMakeFiles/costmap_2d_generate_messages_cpp.dir/build.make CMakeFiles/costmap_2d_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/costmap_2d_generate_messages_cpp.dir/build.make CMakeFiles/costmap_2d_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/costmap_2d/CMakeFiles --progress-num=23 "Built target costmap_2d_generate_messages_cpp"
@@ -3855,10 +3855,10 @@ CMakeFiles/visualization_msgs_generate_messages_py.dir/clean:
 # Target rules for target CMakeFiles/costmap_2d_generate_messages_eus.dir
 
 # All Build rule for target.
-CMakeFiles/costmap_2d_generate_messages_eus.dir/all: CMakeFiles/map_msgs_generate_messages_eus.dir/all
 CMakeFiles/costmap_2d_generate_messages_eus.dir/all: CMakeFiles/_costmap_2d_generate_messages_check_deps_VoxelGrid.dir/all
 CMakeFiles/costmap_2d_generate_messages_eus.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 CMakeFiles/costmap_2d_generate_messages_eus.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
+CMakeFiles/costmap_2d_generate_messages_eus.dir/all: CMakeFiles/map_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/costmap_2d_generate_messages_eus.dir/build.make CMakeFiles/costmap_2d_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/costmap_2d_generate_messages_eus.dir/build.make CMakeFiles/costmap_2d_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/costmap_2d/CMakeFiles --progress-num=24,25 "Built target costmap_2d_generate_messages_eus"

@@ -61,14 +61,14 @@
 [  0%] Built target tf2_msgs_generate_messages_cpp
 [  0%] Built target tf2_msgs_generate_messages_lisp
 [  0%] Built target geometry_msgs_generate_messages_nodejs
-[  0%] Built target map_msgs_generate_messages_nodejs
 [  0%] Built target map_msgs_generate_messages_cpp
 [  0%] Built target map_msgs_generate_messages_eus
+[  0%] Built target map_msgs_generate_messages_nodejs
 [  0%] Built target sensor_msgs_generate_messages_eus
 [  0%] Built target map_msgs_generate_messages_lisp
 [  0%] Built target tf_generate_messages_py
 [  0%] Built target visualization_msgs_generate_messages_eus
-[  0%] Built target visualization_msgs_generate_messages_nodejs
 [  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_nodejs
 [  0%] Built target costmap_2d_generate_messages_eus
 [100%] Built target clear_costmap_recovery

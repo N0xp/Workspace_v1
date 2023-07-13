@@ -59,11 +59,11 @@ CMakeFiles/navfn_generate_messages_cpp: /home/pi/catkin_ws/devel/.private/navfn/
 
 /home/pi/catkin_ws/devel/.private/navfn/include/navfn/MakeNavPlan.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/pi/catkin_ws/devel/.private/navfn/include/navfn/MakeNavPlan.h: /home/pi/catkin_ws/src/navigation/navfn/srv/MakeNavPlan.srv
-/home/pi/catkin_ws/devel/.private/navfn/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/pi/catkin_ws/devel/.private/navfn/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/pi/catkin_ws/devel/.private/navfn/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/pi/catkin_ws/devel/.private/navfn/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/pi/catkin_ws/devel/.private/navfn/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/pi/catkin_ws/devel/.private/navfn/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/pi/catkin_ws/devel/.private/navfn/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/pi/catkin_ws/devel/.private/navfn/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/pi/catkin_ws/devel/.private/navfn/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/navfn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from navfn/MakeNavPlan.srv"

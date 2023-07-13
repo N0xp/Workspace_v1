@@ -91,7 +91,7 @@ map_server_image_loader_EXTERNAL_OBJECTS =
 /home/pi/catkin_ws/devel/.private/map_server/lib/libmap_server_image_loader.so: /usr/lib/arm-linux-gnueabihf/liblog4cxx.so
 /home/pi/catkin_ws/devel/.private/map_server/lib/libmap_server_image_loader.so: /usr/lib/arm-linux-gnueabihf/libboost_regex.so
 /home/pi/catkin_ws/devel/.private/map_server/lib/libmap_server_image_loader.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/pi/catkin_ws/devel/.private/map_server/lib/libmap_server_image_loader.so: /opt/ros/noetic/lib/libtf2.so
+/home/pi/catkin_ws/devel/.private/map_server/lib/libmap_server_image_loader.so: /home/pi/catkin_ws/devel/.private/tf2/lib/libtf2.so
 /home/pi/catkin_ws/devel/.private/map_server/lib/libmap_server_image_loader.so: /opt/ros/noetic/lib/libroscpp_serialization.so
 /home/pi/catkin_ws/devel/.private/map_server/lib/libmap_server_image_loader.so: /opt/ros/noetic/lib/librostime.so
 /home/pi/catkin_ws/devel/.private/map_server/lib/libmap_server_image_loader.so: /opt/ros/noetic/lib/libcpp_common.so

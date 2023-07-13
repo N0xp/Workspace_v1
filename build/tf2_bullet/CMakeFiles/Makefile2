@@ -944,9 +944,9 @@ CMakeFiles/run_tests_tf2_bullet_gtest.dir/clean:
 # Target rules for target CMakeFiles/_run_tests_tf2_bullet_gtest_test_bullet.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_tf2_bullet_gtest_test_bullet.dir/all: CMakeFiles/clean_test_results_tf2_bullet.dir/all
 CMakeFiles/_run_tests_tf2_bullet_gtest_test_bullet.dir/all: CMakeFiles/test_bullet.dir/all
 CMakeFiles/_run_tests_tf2_bullet_gtest_test_bullet.dir/all: CMakeFiles/tests.dir/all
+CMakeFiles/_run_tests_tf2_bullet_gtest_test_bullet.dir/all: CMakeFiles/clean_test_results_tf2_bullet.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_tf2_bullet_gtest_test_bullet.dir/build.make CMakeFiles/_run_tests_tf2_bullet_gtest_test_bullet.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_tf2_bullet_gtest_test_bullet.dir/build.make CMakeFiles/_run_tests_tf2_bullet_gtest_test_bullet.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/tf2_bullet/CMakeFiles --progress-num= "Built target _run_tests_tf2_bullet_gtest_test_bullet"

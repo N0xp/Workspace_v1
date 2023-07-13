@@ -53,17 +53,15 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build/vmxpi_ros_bringup
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Task4_servo_node.dir/all
+all: CMakeFiles/Robot_Interface_node.dir/all
+all: CMakeFiles/Skid_steer_control.dir/all
+all: CMakeFiles/navx_msg_conv_node.dir/all
 all: CMakeFiles/drive_enc_node.dir/all
 all: CMakeFiles/main_node.dir/all
 all: CMakeFiles/test_node.dir/all
 all: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
 all: CMakeFiles/drive_keyboard_teleop_node.dir/all
-all: CMakeFiles/odom_pub_node.dir/all
 all: CMakeFiles/odom_sub_node.dir/all
-all: CMakeFiles/Task3_teleop_node.dir/all
-all: CMakeFiles/Task2_sensors_node.dir/all
-all: CMakeFiles/navx_msg_conv_node.dir/all
 all: gtest/all
 
 .PHONY : all
@@ -74,6 +72,9 @@ preinstall: gtest/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Robot_Interface_node.dir/clean
+clean: CMakeFiles/Skid_steer_control.dir/clean
+clean: CMakeFiles/navx_msg_conv_node.dir/clean
 clean: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 clean: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean
 clean: CMakeFiles/vmxpi_ros_generate_messages_lisp.dir/clean
@@ -95,13 +96,12 @@ clean: CMakeFiles/tf_generate_messages_lisp.dir/clean
 clean: CMakeFiles/run_tests.dir/clean
 clean: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 clean: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/clean
-clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
 clean: CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+clean: CMakeFiles/doxygen.dir/clean
 clean: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: CMakeFiles/roscpp_generate_messages_eus.dir/clean
-clean: CMakeFiles/Task4_servo_node.dir/clean
 clean: CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 clean: CMakeFiles/tf2_msgs_generate_messages_eus.dir/clean
 clean: CMakeFiles/std_msgs_generate_messages_eus.dir/clean
@@ -113,6 +113,7 @@ clean: CMakeFiles/vmxpi_ros_generate_messages_nodejs.dir/clean
 clean: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 clean: CMakeFiles/clean_test_results.dir/clean
 clean: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+clean: CMakeFiles/move_base_msgs_generate_messages_cpp.dir/clean
 clean: CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 clean: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 clean: CMakeFiles/roscpp_generate_messages_py.dir/clean
@@ -125,6 +126,7 @@ clean: CMakeFiles/nav_msgs_generate_messages_eus.dir/clean
 clean: CMakeFiles/nav_msgs_generate_messages_lisp.dir/clean
 clean: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean
 clean: CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+clean: CMakeFiles/move_base_msgs_generate_messages_eus.dir/clean
 clean: CMakeFiles/vmxpi_ros_generate_messages_py.dir/clean
 clean: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/clean
 clean: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean
@@ -141,16 +143,16 @@ clean: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 clean: CMakeFiles/actionlib_generate_messages_py.dir/clean
 clean: CMakeFiles/test_node.dir/clean
 clean: CMakeFiles/actionlib_generate_messages_eus.dir/clean
+clean: CMakeFiles/move_base_msgs_generate_messages_py.dir/clean
 clean: CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
+clean: CMakeFiles/move_base_gencfg.dir/clean
+clean: CMakeFiles/tests.dir/clean
+clean: CMakeFiles/move_base_msgs_generate_messages_lisp.dir/clean
+clean: CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/clean
 clean: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/clean
 clean: CMakeFiles/drive_keyboard_teleop_node.dir/clean
-clean: CMakeFiles/odom_pub_node.dir/clean
 clean: CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 clean: CMakeFiles/odom_sub_node.dir/clean
-clean: CMakeFiles/doxygen.dir/clean
-clean: CMakeFiles/Task3_teleop_node.dir/clean
-clean: CMakeFiles/Task2_sensors_node.dir/clean
-clean: CMakeFiles/navx_msg_conv_node.dir/clean
 clean: gtest/clean
 
 .PHONY : clean
@@ -211,6 +213,288 @@ gtest/googlemock/gtest/clean: gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/c
 gtest/googlemock/gtest/clean: gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 
 .PHONY : gtest/googlemock/gtest/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Robot_Interface_node.dir
+
+# All Build rule for target.
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_lisp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_eus.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_cpp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/actionlib_generate_messages_lisp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/tf_generate_messages_cpp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/tf_generate_messages_lisp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_nodejs.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/nav_msgs_generate_messages_py.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/tf_generate_messages_eus.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_eus.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_py.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/actionlib_generate_messages_cpp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/tf_generate_messages_nodejs.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_py.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/move_base_gencfg.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
+CMakeFiles/Robot_Interface_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Robot_Interface_node.dir/build.make CMakeFiles/Robot_Interface_node.dir/depend
+	$(MAKE) -f CMakeFiles/Robot_Interface_node.dir/build.make CMakeFiles/Robot_Interface_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=1,2 "Built target Robot_Interface_node"
+.PHONY : CMakeFiles/Robot_Interface_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Robot_Interface_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Robot_Interface_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/Robot_Interface_node.dir/rule
+
+# Convenience name for target.
+Robot_Interface_node: CMakeFiles/Robot_Interface_node.dir/rule
+
+.PHONY : Robot_Interface_node
+
+# clean rule for target.
+CMakeFiles/Robot_Interface_node.dir/clean:
+	$(MAKE) -f CMakeFiles/Robot_Interface_node.dir/build.make CMakeFiles/Robot_Interface_node.dir/clean
+.PHONY : CMakeFiles/Robot_Interface_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Skid_steer_control.dir
+
+# All Build rule for target.
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/vmxpi_ros_generate_messages_lisp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/vmxpi_ros_generate_messages_eus.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/vmxpi_ros_generate_messages_cpp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/actionlib_generate_messages_lisp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/tf_generate_messages_cpp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/tf_generate_messages_lisp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/vmxpi_ros_generate_messages_nodejs.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/nav_msgs_generate_messages_py.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/tf_generate_messages_eus.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/move_base_msgs_generate_messages_eus.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/vmxpi_ros_generate_messages_py.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/actionlib_generate_messages_cpp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/tf_generate_messages_nodejs.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/move_base_msgs_generate_messages_py.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/move_base_gencfg.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
+CMakeFiles/Skid_steer_control.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Skid_steer_control.dir/build.make CMakeFiles/Skid_steer_control.dir/depend
+	$(MAKE) -f CMakeFiles/Skid_steer_control.dir/build.make CMakeFiles/Skid_steer_control.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=3,4 "Built target Skid_steer_control"
+.PHONY : CMakeFiles/Skid_steer_control.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Skid_steer_control.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Skid_steer_control.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/Skid_steer_control.dir/rule
+
+# Convenience name for target.
+Skid_steer_control: CMakeFiles/Skid_steer_control.dir/rule
+
+.PHONY : Skid_steer_control
+
+# clean rule for target.
+CMakeFiles/Skid_steer_control.dir/clean:
+	$(MAKE) -f CMakeFiles/Skid_steer_control.dir/build.make CMakeFiles/Skid_steer_control.dir/clean
+.PHONY : CMakeFiles/Skid_steer_control.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/navx_msg_conv_node.dir
+
+# All Build rule for target.
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_lisp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_eus.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_cpp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_generate_messages_lisp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf_generate_messages_cpp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf_generate_messages_lisp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_nodejs.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/nav_msgs_generate_messages_py.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf_generate_messages_eus.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_eus.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_py.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_generate_messages_cpp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf_generate_messages_nodejs.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_py.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/move_base_gencfg.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
+CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/navx_msg_conv_node.dir/build.make CMakeFiles/navx_msg_conv_node.dir/depend
+	$(MAKE) -f CMakeFiles/navx_msg_conv_node.dir/build.make CMakeFiles/navx_msg_conv_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=19,20 "Built target navx_msg_conv_node"
+.PHONY : CMakeFiles/navx_msg_conv_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/navx_msg_conv_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/navx_msg_conv_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/navx_msg_conv_node.dir/rule
+
+# Convenience name for target.
+navx_msg_conv_node: CMakeFiles/navx_msg_conv_node.dir/rule
+
+.PHONY : navx_msg_conv_node
+
+# clean rule for target.
+CMakeFiles/navx_msg_conv_node.dir/clean:
+	$(MAKE) -f CMakeFiles/navx_msg_conv_node.dir/build.make CMakeFiles/navx_msg_conv_node.dir/clean
+.PHONY : CMakeFiles/navx_msg_conv_node.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
@@ -780,33 +1064,6 @@ CMakeFiles/nav_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/nav_msgs_generate_messages_nodejs.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tests.dir
-
-# All Build rule for target.
-CMakeFiles/tests.dir/all:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num= "Built target tests"
-.PHONY : CMakeFiles/tests.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
-.PHONY : CMakeFiles/tests.dir/rule
-
-# Convenience name for target.
-tests: CMakeFiles/tests.dir/rule
-
-.PHONY : tests
-
-# clean rule for target.
-CMakeFiles/tests.dir/clean:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/clean
-.PHONY : CMakeFiles/tests.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/dynamic_reconfigure_gencfg.dir
 
 # All Build rule for target.
@@ -859,6 +1116,33 @@ std_msgs_generate_messages_cpp: CMakeFiles/std_msgs_generate_messages_cpp.dir/ru
 CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/doxygen.dir
+
+# All Build rule for target.
+CMakeFiles/doxygen.dir/all:
+	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
+	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num= "Built target doxygen"
+.PHONY : CMakeFiles/doxygen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/doxygen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/doxygen.dir/rule
+
+# Convenience name for target.
+doxygen: CMakeFiles/doxygen.dir/rule
+
+.PHONY : doxygen
+
+# clean rule for target.
+CMakeFiles/doxygen.dir/clean:
+	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/clean
+.PHONY : CMakeFiles/doxygen.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tf2_msgs_generate_messages_nodejs.dir
@@ -940,94 +1224,6 @@ roscpp_generate_messages_eus: CMakeFiles/roscpp_generate_messages_eus.dir/rule
 CMakeFiles/roscpp_generate_messages_eus.dir/clean:
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/clean
 .PHONY : CMakeFiles/roscpp_generate_messages_eus.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Task4_servo_node.dir
-
-# All Build rule for target.
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_lisp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_eus.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_cpp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/actionlib_generate_messages_lisp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/tf_generate_messages_cpp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/tf_generate_messages_lisp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/dynamic_reconfigure_gencfg.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_nodejs.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/nav_msgs_generate_messages_py.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/tf_generate_messages_eus.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_py.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/actionlib_generate_messages_cpp.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/tf_generate_messages_nodejs.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
-CMakeFiles/Task4_servo_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(MAKE) -f CMakeFiles/Task4_servo_node.dir/build.make CMakeFiles/Task4_servo_node.dir/depend
-	$(MAKE) -f CMakeFiles/Task4_servo_node.dir/build.make CMakeFiles/Task4_servo_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=5,6 "Built target Task4_servo_node"
-.PHONY : CMakeFiles/Task4_servo_node.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Task4_servo_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Task4_servo_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
-.PHONY : CMakeFiles/Task4_servo_node.dir/rule
-
-# Convenience name for target.
-Task4_servo_node: CMakeFiles/Task4_servo_node.dir/rule
-
-.PHONY : Task4_servo_node
-
-# clean rule for target.
-CMakeFiles/Task4_servo_node.dir/clean:
-	$(MAKE) -f CMakeFiles/Task4_servo_node.dir/build.make CMakeFiles/Task4_servo_node.dir/clean
-.PHONY : CMakeFiles/Task4_servo_node.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/roscpp_generate_messages_lisp.dir
@@ -1146,6 +1342,7 @@ CMakeFiles/drive_enc_node.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.di
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_nodejs.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/drive_enc_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
@@ -1158,6 +1355,7 @@ CMakeFiles/drive_enc_node.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/drive_enc_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_eus.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_py.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
@@ -1173,12 +1371,16 @@ CMakeFiles/drive_enc_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_no
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/drive_enc_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_py.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/drive_enc_node.dir/all: CMakeFiles/move_base_gencfg.dir/all
+CMakeFiles/drive_enc_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all
+CMakeFiles/drive_enc_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
 CMakeFiles/drive_enc_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/drive_enc_node.dir/build.make CMakeFiles/drive_enc_node.dir/depend
 	$(MAKE) -f CMakeFiles/drive_enc_node.dir/build.make CMakeFiles/drive_enc_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=7,8 "Built target drive_enc_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=5,6 "Built target drive_enc_node"
 .PHONY : CMakeFiles/drive_enc_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1288,6 +1490,7 @@ CMakeFiles/main_node.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_nodejs.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/main_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
@@ -1300,6 +1503,7 @@ CMakeFiles/main_node.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/main_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_eus.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_py.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
@@ -1315,12 +1519,16 @@ CMakeFiles/main_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.
 CMakeFiles/main_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/main_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_py.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/main_node.dir/all: CMakeFiles/move_base_gencfg.dir/all
+CMakeFiles/main_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all
+CMakeFiles/main_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
 CMakeFiles/main_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/depend
 	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=19,20 "Built target main_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=17,18 "Built target main_node"
 .PHONY : CMakeFiles/main_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1447,6 +1655,33 @@ rosgraph_msgs_generate_messages_lisp: CMakeFiles/rosgraph_msgs_generate_messages
 CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/move_base_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make CMakeFiles/move_base_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num= "Built target move_base_msgs_generate_messages_cpp"
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+move_base_msgs_generate_messages_cpp: CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : move_base_msgs_generate_messages_cpp
+
+# clean rule for target.
+CMakeFiles/move_base_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make CMakeFiles/move_base_msgs_generate_messages_cpp.dir/clean
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_cpp.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/geometry_msgs_generate_messages_py.dir
@@ -1771,6 +2006,33 @@ sensor_msgs_generate_messages_eus: CMakeFiles/sensor_msgs_generate_messages_eus.
 CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/move_base_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+CMakeFiles/move_base_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_eus.dir/build.make CMakeFiles/move_base_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_eus.dir/build.make CMakeFiles/move_base_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num= "Built target move_base_msgs_generate_messages_eus"
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move_base_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/move_base_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+move_base_msgs_generate_messages_eus: CMakeFiles/move_base_msgs_generate_messages_eus.dir/rule
+
+.PHONY : move_base_msgs_generate_messages_eus
+
+# clean rule for target.
+CMakeFiles/move_base_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_eus.dir/build.make CMakeFiles/move_base_msgs_generate_messages_eus.dir/clean
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_eus.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/vmxpi_ros_generate_messages_py.dir
@@ -2157,7 +2419,7 @@ CMakeFiles/actionlib_generate_messages_py.dir/clean:
 CMakeFiles/test_node.dir/all: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
 	$(MAKE) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/depend
 	$(MAKE) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=27,28 "Built target test_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=23,24 "Built target test_node"
 .PHONY : CMakeFiles/test_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2205,6 +2467,33 @@ CMakeFiles/actionlib_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/actionlib_generate_messages_eus.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/move_base_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+CMakeFiles/move_base_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make CMakeFiles/move_base_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make CMakeFiles/move_base_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num= "Built target move_base_msgs_generate_messages_py"
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move_base_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/move_base_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+move_base_msgs_generate_messages_py: CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
+
+.PHONY : move_base_msgs_generate_messages_py
+
+# clean rule for target.
+CMakeFiles/move_base_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make CMakeFiles/move_base_msgs_generate_messages_py.dir/clean
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_py.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/actionlib_generate_messages_nodejs.dir
 
 # All Build rule for target.
@@ -2232,13 +2521,121 @@ CMakeFiles/actionlib_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/move_base_gencfg.dir
+
+# All Build rule for target.
+CMakeFiles/move_base_gencfg.dir/all:
+	$(MAKE) -f CMakeFiles/move_base_gencfg.dir/build.make CMakeFiles/move_base_gencfg.dir/depend
+	$(MAKE) -f CMakeFiles/move_base_gencfg.dir/build.make CMakeFiles/move_base_gencfg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num= "Built target move_base_gencfg"
+.PHONY : CMakeFiles/move_base_gencfg.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move_base_gencfg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/move_base_gencfg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/move_base_gencfg.dir/rule
+
+# Convenience name for target.
+move_base_gencfg: CMakeFiles/move_base_gencfg.dir/rule
+
+.PHONY : move_base_gencfg
+
+# clean rule for target.
+CMakeFiles/move_base_gencfg.dir/clean:
+	$(MAKE) -f CMakeFiles/move_base_gencfg.dir/build.make CMakeFiles/move_base_gencfg.dir/clean
+.PHONY : CMakeFiles/move_base_gencfg.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tests.dir
+
+# All Build rule for target.
+CMakeFiles/tests.dir/all:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num= "Built target tests"
+.PHONY : CMakeFiles/tests.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/tests.dir/rule
+
+# Convenience name for target.
+tests: CMakeFiles/tests.dir/rule
+
+.PHONY : tests
+
+# clean rule for target.
+CMakeFiles/tests.dir/clean:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/clean
+.PHONY : CMakeFiles/tests.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/move_base_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make CMakeFiles/move_base_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num= "Built target move_base_msgs_generate_messages_lisp"
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+move_base_msgs_generate_messages_lisp: CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : move_base_msgs_generate_messages_lisp
+
+# clean rule for target.
+CMakeFiles/move_base_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make CMakeFiles/move_base_msgs_generate_messages_lisp.dir/clean
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_lisp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/move_base_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num= "Built target move_base_msgs_generate_messages_nodejs"
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+move_base_msgs_generate_messages_nodejs: CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : move_base_msgs_generate_messages_nodejs
+
+# clean rule for target.
+CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/clean
+.PHONY : CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/vmxpi_ros_bringup_gencfg.dir
 
 # All Build rule for target.
 CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all:
 	$(MAKE) -f CMakeFiles/vmxpi_ros_bringup_gencfg.dir/build.make CMakeFiles/vmxpi_ros_bringup_gencfg.dir/depend
 	$(MAKE) -f CMakeFiles/vmxpi_ros_bringup_gencfg.dir/build.make CMakeFiles/vmxpi_ros_bringup_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=29 "Built target vmxpi_ros_bringup_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=25 "Built target vmxpi_ros_bringup_gencfg"
 .PHONY : CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2294,6 +2691,7 @@ CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/roscpp_generate_messag
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_nodejs.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
@@ -2306,6 +2704,7 @@ CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/nav_msgs_generate_mess
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_eus.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_py.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
@@ -2321,12 +2720,16 @@ CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/rosgraph_msgs_generate
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_py.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/move_base_gencfg.dir/all
+CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all
+CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
 CMakeFiles/drive_keyboard_teleop_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/drive_keyboard_teleop_node.dir/build.make CMakeFiles/drive_keyboard_teleop_node.dir/depend
 	$(MAKE) -f CMakeFiles/drive_keyboard_teleop_node.dir/build.make CMakeFiles/drive_keyboard_teleop_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=9,10 "Built target drive_keyboard_teleop_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=7,8 "Built target drive_keyboard_teleop_node"
 .PHONY : CMakeFiles/drive_keyboard_teleop_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2345,94 +2748,6 @@ drive_keyboard_teleop_node: CMakeFiles/drive_keyboard_teleop_node.dir/rule
 CMakeFiles/drive_keyboard_teleop_node.dir/clean:
 	$(MAKE) -f CMakeFiles/drive_keyboard_teleop_node.dir/build.make CMakeFiles/drive_keyboard_teleop_node.dir/clean
 .PHONY : CMakeFiles/drive_keyboard_teleop_node.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/odom_pub_node.dir
-
-# All Build rule for target.
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_lisp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_eus.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_cpp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/actionlib_generate_messages_lisp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/tf_generate_messages_cpp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/tf_generate_messages_lisp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/dynamic_reconfigure_gencfg.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_nodejs.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/nav_msgs_generate_messages_py.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/tf_generate_messages_eus.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_py.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/actionlib_generate_messages_cpp.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/tf_generate_messages_nodejs.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
-CMakeFiles/odom_pub_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(MAKE) -f CMakeFiles/odom_pub_node.dir/build.make CMakeFiles/odom_pub_node.dir/depend
-	$(MAKE) -f CMakeFiles/odom_pub_node.dir/build.make CMakeFiles/odom_pub_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=23,24 "Built target odom_pub_node"
-.PHONY : CMakeFiles/odom_pub_node.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/odom_pub_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/odom_pub_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
-.PHONY : CMakeFiles/odom_pub_node.dir/rule
-
-# Convenience name for target.
-odom_pub_node: CMakeFiles/odom_pub_node.dir/rule
-
-.PHONY : odom_pub_node
-
-# clean rule for target.
-CMakeFiles/odom_pub_node.dir/clean:
-	$(MAKE) -f CMakeFiles/odom_pub_node.dir/build.make CMakeFiles/odom_pub_node.dir/clean
-.PHONY : CMakeFiles/odom_pub_node.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/geometry_msgs_generate_messages_eus.dir
@@ -2497,6 +2812,7 @@ CMakeFiles/odom_sub_node.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_nodejs.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/odom_sub_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
@@ -2509,6 +2825,7 @@ CMakeFiles/odom_sub_node.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/odom_sub_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_eus.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_py.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
@@ -2524,12 +2841,16 @@ CMakeFiles/odom_sub_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nod
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/odom_sub_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_py.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/odom_sub_node.dir/all: CMakeFiles/move_base_gencfg.dir/all
+CMakeFiles/odom_sub_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all
+CMakeFiles/odom_sub_node.dir/all: CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
 CMakeFiles/odom_sub_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/odom_sub_node.dir/build.make CMakeFiles/odom_sub_node.dir/depend
 	$(MAKE) -f CMakeFiles/odom_sub_node.dir/build.make CMakeFiles/odom_sub_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=25,26 "Built target odom_sub_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=21,22 "Built target odom_sub_node"
 .PHONY : CMakeFiles/odom_sub_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2550,297 +2871,6 @@ CMakeFiles/odom_sub_node.dir/clean:
 .PHONY : CMakeFiles/odom_sub_node.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/doxygen.dir
-
-# All Build rule for target.
-CMakeFiles/doxygen.dir/all:
-	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
-	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num= "Built target doxygen"
-.PHONY : CMakeFiles/doxygen.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/doxygen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
-.PHONY : CMakeFiles/doxygen.dir/rule
-
-# Convenience name for target.
-doxygen: CMakeFiles/doxygen.dir/rule
-
-.PHONY : doxygen
-
-# clean rule for target.
-CMakeFiles/doxygen.dir/clean:
-	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/clean
-.PHONY : CMakeFiles/doxygen.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Task3_teleop_node.dir
-
-# All Build rule for target.
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_lisp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_eus.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_cpp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/actionlib_generate_messages_lisp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/tf_generate_messages_cpp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/tf_generate_messages_lisp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/dynamic_reconfigure_gencfg.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_nodejs.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/nav_msgs_generate_messages_py.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/tf_generate_messages_eus.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_py.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/actionlib_generate_messages_cpp.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/tf_generate_messages_nodejs.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
-CMakeFiles/Task3_teleop_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(MAKE) -f CMakeFiles/Task3_teleop_node.dir/build.make CMakeFiles/Task3_teleop_node.dir/depend
-	$(MAKE) -f CMakeFiles/Task3_teleop_node.dir/build.make CMakeFiles/Task3_teleop_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=3,4 "Built target Task3_teleop_node"
-.PHONY : CMakeFiles/Task3_teleop_node.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Task3_teleop_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Task3_teleop_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
-.PHONY : CMakeFiles/Task3_teleop_node.dir/rule
-
-# Convenience name for target.
-Task3_teleop_node: CMakeFiles/Task3_teleop_node.dir/rule
-
-.PHONY : Task3_teleop_node
-
-# clean rule for target.
-CMakeFiles/Task3_teleop_node.dir/clean:
-	$(MAKE) -f CMakeFiles/Task3_teleop_node.dir/build.make CMakeFiles/Task3_teleop_node.dir/clean
-.PHONY : CMakeFiles/Task3_teleop_node.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Task2_sensors_node.dir
-
-# All Build rule for target.
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_lisp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_eus.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_cpp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/actionlib_generate_messages_lisp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/tf_generate_messages_cpp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/tf_generate_messages_lisp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/dynamic_reconfigure_gencfg.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_nodejs.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/nav_msgs_generate_messages_py.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/tf_generate_messages_eus.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_py.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/actionlib_generate_messages_cpp.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/tf_generate_messages_nodejs.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
-CMakeFiles/Task2_sensors_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(MAKE) -f CMakeFiles/Task2_sensors_node.dir/build.make CMakeFiles/Task2_sensors_node.dir/depend
-	$(MAKE) -f CMakeFiles/Task2_sensors_node.dir/build.make CMakeFiles/Task2_sensors_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=1,2 "Built target Task2_sensors_node"
-.PHONY : CMakeFiles/Task2_sensors_node.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Task2_sensors_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Task2_sensors_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
-.PHONY : CMakeFiles/Task2_sensors_node.dir/rule
-
-# Convenience name for target.
-Task2_sensors_node: CMakeFiles/Task2_sensors_node.dir/rule
-
-.PHONY : Task2_sensors_node
-
-# clean rule for target.
-CMakeFiles/Task2_sensors_node.dir/clean:
-	$(MAKE) -f CMakeFiles/Task2_sensors_node.dir/build.make CMakeFiles/Task2_sensors_node.dir/clean
-.PHONY : CMakeFiles/Task2_sensors_node.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/navx_msg_conv_node.dir
-
-# All Build rule for target.
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_lisp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_eus.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_cpp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_generate_messages_lisp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf_generate_messages_cpp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf_generate_messages_lisp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/dynamic_reconfigure_gencfg.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_nodejs.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/nav_msgs_generate_messages_py.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf_generate_messages_eus.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/vmxpi_ros_generate_messages_py.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_generate_messages_cpp.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/tf_generate_messages_nodejs.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/vmxpi_ros_bringup_gencfg.dir/all
-CMakeFiles/navx_msg_conv_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(MAKE) -f CMakeFiles/navx_msg_conv_node.dir/build.make CMakeFiles/navx_msg_conv_node.dir/depend
-	$(MAKE) -f CMakeFiles/navx_msg_conv_node.dir/build.make CMakeFiles/navx_msg_conv_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=21,22 "Built target navx_msg_conv_node"
-.PHONY : CMakeFiles/navx_msg_conv_node.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/navx_msg_conv_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/navx_msg_conv_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles 0
-.PHONY : CMakeFiles/navx_msg_conv_node.dir/rule
-
-# Convenience name for target.
-navx_msg_conv_node: CMakeFiles/navx_msg_conv_node.dir/rule
-
-.PHONY : navx_msg_conv_node
-
-# clean rule for target.
-CMakeFiles/navx_msg_conv_node.dir/clean:
-	$(MAKE) -f CMakeFiles/navx_msg_conv_node.dir/build.make CMakeFiles/navx_msg_conv_node.dir/clean
-.PHONY : CMakeFiles/navx_msg_conv_node.dir/clean
-
-#=============================================================================
 # Target rules for target gtest/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
@@ -2848,7 +2878,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmoc
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=13,14 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=11,12 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2875,7 +2905,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=11,12 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=9,10 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2902,7 +2932,7 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=17,18 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=15,16 "Built target gtest_main"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2929,7 +2959,7 @@ gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/clean:
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=15,16 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/vmxpi_ros_bringup/CMakeFiles --progress-num=13,14 "Built target gtest"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.

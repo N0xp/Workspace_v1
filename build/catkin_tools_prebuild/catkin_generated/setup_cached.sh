@@ -9,6 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/pi/catkin_ws/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH='/opt/ros/noetic/lib'
+export PATH='/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
 export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig'
 export PWD='/home/pi/catkin_ws/build/catkin_tools_prebuild'
 export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'

@@ -62,16 +62,16 @@ CMakeFiles/variant_msgs_generate_messages_eus: /home/pi/catkin_ws/devel/.private
 
 /home/pi/catkin_ws/devel/.private/variant_msgs/share/roseus/ros/variant_msgs/msg/Test.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/.private/variant_msgs/share/roseus/ros/variant_msgs/msg/Test.l: /home/pi/catkin_ws/src/variant/variant_msgs/msg/Test.msg
-/home/pi/catkin_ws/devel/.private/variant_msgs/share/roseus/ros/variant_msgs/msg/Test.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/pi/catkin_ws/devel/.private/variant_msgs/share/roseus/ros/variant_msgs/msg/Test.l: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/pi/catkin_ws/devel/.private/variant_msgs/share/roseus/ros/variant_msgs/msg/Test.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/pi/catkin_ws/devel/.private/variant_msgs/share/roseus/ros/variant_msgs/msg/Test.l: /opt/ros/noetic/share/std_msgs/msg/String.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/variant_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from variant_msgs/Test.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/variant/variant_msgs/msg/Test.msg -Ivariant_msgs:/home/pi/catkin_ws/src/variant/variant_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p variant_msgs -o /home/pi/catkin_ws/devel/.private/variant_msgs/share/roseus/ros/variant_msgs/msg
 
 /home/pi/catkin_ws/devel/.private/variant_msgs/share/roseus/ros/variant_msgs/msg/Variant.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/.private/variant_msgs/share/roseus/ros/variant_msgs/msg/Variant.l: /home/pi/catkin_ws/src/variant/variant_msgs/msg/Variant.msg
-/home/pi/catkin_ws/devel/.private/variant_msgs/share/roseus/ros/variant_msgs/msg/Variant.l: /home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantType.msg
 /home/pi/catkin_ws/devel/.private/variant_msgs/share/roseus/ros/variant_msgs/msg/Variant.l: /home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantHeader.msg
+/home/pi/catkin_ws/devel/.private/variant_msgs/share/roseus/ros/variant_msgs/msg/Variant.l: /home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantType.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/variant_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from variant_msgs/Variant.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/variant/variant_msgs/msg/Variant.msg -Ivariant_msgs:/home/pi/catkin_ws/src/variant/variant_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p variant_msgs -o /home/pi/catkin_ws/devel/.private/variant_msgs/share/roseus/ros/variant_msgs/msg
 

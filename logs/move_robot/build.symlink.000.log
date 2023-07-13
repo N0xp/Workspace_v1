@@ -1,0 +1,4 @@
+Symlinking /home/pi/catkin_ws/devel/lib/move_robot/move_robot
+Symlinking /home/pi/catkin_ws/devel/lib/pkgconfig/move_robot.pc
+Symlinking /home/pi/catkin_ws/devel/share/move_robot/cmake/move_robotConfig-version.cmake
+Symlinking /home/pi/catkin_ws/devel/share/move_robot/cmake/move_robotConfig.cmake

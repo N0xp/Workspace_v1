@@ -1,23 +1,21 @@
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
-[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
 [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
 [  0%] Built target actionlib_msgs_generate_messages_lisp
 [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
 [  0%] Built target actionlib_msgs_generate_messages_nodejs
 [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
 [  0%] Built target geometry_msgs_generate_messages_nodejs
-[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
-[  0%] Built target actionlib_msgs_generate_messages_py
-[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
-[  0%] Built target std_msgs_generate_messages_cpp
-[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
-[  0%] Built target tf2_msgs_generate_messages_nodejs
-[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
-[  0%] Built target tf2_msgs_generate_messages_py
-[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
-[  0%] Built target actionlib_msgs_generate_messages_cpp
-[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
-[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
 [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
 [  0%] Built target std_msgs_generate_messages_nodejs
 [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
@@ -28,19 +26,20 @@
 [  0%] Built target std_msgs_generate_messages_lisp
 [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
 [  0%] Built target tf2_msgs_generate_messages_cpp
-[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
-[  0%] Built target std_msgs_generate_messages_py
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
-[  0%] Built target geometry_msgs_generate_messages_eus
 [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
 [  0%] Built target tf2_msgs_generate_messages_eus
 [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
 [  0%] Built target tf2_msgs_generate_messages_lisp
 [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
 [  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
 [35m[1mScanning dependencies of target tf2[0m
 [ 25%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/cache.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/buffer_core.cpp.o[0m
 [01m[K/home/pi/catkin_ws/src/geometry2/tf2/src/cache.cpp:[m[K In member function ‘[01m[Kvirtual bool tf2::TimeCache::insertData(const tf2::TransformStorage&, std::__cxx11::string*)[m[K’:
 [01m[K/home/pi/catkin_ws/src/geometry2/tf2/src/cache.cpp:288:20:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::deque<tf2::TransformStorage>::const_iterator[m[K’ {aka ‘[01m[Kstd::_Deque_iterator<tf2::TransformStorage, const tf2::TransformStorage&, const tf2::TransformStorage*>[m[K’} changed in GCC 7.1
      [01;36m[Kstorage_.insert(storage_it, new_data)[m[K;
@@ -80,7 +79,7 @@ In file included from [01m[K/usr/include/c++/8/deque:66[m[K,
      [01;36m[Kmove_backward[m[K(_Deque_iterator<_Tp, const _Tp&, const _Tp*> __first,
      [01;36m[K^~~~~~~~~~~~~[m[K
 [01m[K/usr/include/c++/8/bits/deque.tcc:1072:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::_Deque_iterator<tf2::TransformStorage, const tf2::TransformStorage&, const tf2::TransformStorage*>[m[K’ changed in GCC 7.1
-[ 75%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/static_cache.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/buffer_core.cpp.o[0m
 [01m[K/home/pi/catkin_ws/src/geometry2/tf2/src/buffer_core.cpp:[m[K In member function ‘[01m[Kvoid tf2::BufferCore::removeTransformableCallback(tf2::TransformableCallbackHandle)[m[K’:
 [01m[K/home/pi/catkin_ws/src/geometry2/tf2/src/buffer_core.cpp:1264:125:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<tf2::BufferCore::TransformableRequest*, std::vector<tf2::BufferCore::TransformableRequest> >[m[K’ changed in GCC 7.1
      auto it = std::remove_if(transformable_requests_.begin(), transformable_requests_.end(), RemoveRequestByCallback(handle)[01;36m[K)[m[K;
@@ -505,5 +504,6 @@ In file included from [01m[K/usr/include/c++/8/vector:63[m[K,
          [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
          [01;36m[K^~~~~~~~~~~~~[m[K
 [01m[K/usr/include/c++/8/bits/stl_uninitialized.h:76:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<tf2::BufferCore::TransformableRequest*>[m[K’ changed in GCC 7.1
+[ 75%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/static_cache.cpp.o[0m
 [100%] [32m[1mLinking CXX shared library /home/pi/catkin_ws/devel/.private/tf2/lib/libtf2.so[0m
 [100%] Built target tf2

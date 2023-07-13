@@ -20,6 +20,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/pi/catkin_ws/src/navigation/amcl/include"
+  "/home/pi/catkin_ws/devel/.private/tf2_msgs/include"
+  "/home/pi/catkin_ws/src/geometry2/tf2_msgs/include"
+  "/home/pi/catkin_ws/src/geometry2/tf2/include"
+  "/home/pi/catkin_ws/src/geometry2/tf2_ros/include"
+  "/home/pi/catkin_ws/src/geometry2/tf2_geometry_msgs/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

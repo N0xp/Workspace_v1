@@ -6,5 +6,5 @@ CXX_FLAGS =  -D_FILE_OFFSET_BITS=64
 
 CXX_DEFINES = -DHAVE_DRAND48 -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"amcl\"
 
-CXX_INCLUDES = -I/home/pi/catkin_ws/src/navigation/amcl/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/pi/catkin_ws/src/navigation/amcl/src/include -isystem /home/pi/catkin_ws/src/navigation/amcl/BEFORE -isystem /home/pi/catkin_ws/devel/.private/amcl/include 
+CXX_INCLUDES = -I/home/pi/catkin_ws/src/navigation/amcl/include -I/home/pi/catkin_ws/devel/.private/tf2_msgs/include -I/home/pi/catkin_ws/src/geometry2/tf2_msgs/include -I/home/pi/catkin_ws/src/geometry2/tf2/include -I/home/pi/catkin_ws/src/geometry2/tf2_ros/include -I/home/pi/catkin_ws/src/geometry2/tf2_geometry_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/pi/catkin_ws/src/navigation/amcl/src/include -isystem /home/pi/catkin_ws/src/navigation/amcl/BEFORE -isystem /home/pi/catkin_ws/devel/.private/amcl/include 
 

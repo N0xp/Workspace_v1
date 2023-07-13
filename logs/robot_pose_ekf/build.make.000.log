@@ -1,129 +1,110 @@
-[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
-[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
-[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
-[  0%] Built target std_msgs_generate_messages_lisp
-[  0%] Built target sensor_msgs_generate_messages_eus
-[  0%] Built target std_msgs_generate_messages_eus
-[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
-[  0%] Built target roscpp_generate_messages_nodejs
-[  0%] Built target sensor_msgs_generate_messages_cpp
-[  0%] Built target roscpp_generate_messages_py
-[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
 [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
-[  0%] Built target sensor_msgs_generate_messages_nodejs
-[  0%] Built target rosgraph_msgs_generate_messages_cpp
 [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
 [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
-[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
 [  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
 [  0%] Built target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
 [  0%] Built target nav_msgs_generate_messages_py
 [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
-[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
 [  0%] Built target actionlib_generate_messages_py
-[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
 [  0%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
 [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
-[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
 [  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
 [  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
 [  0%] Built target std_msgs_generate_messages_nodejs
 [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
-[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
-[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
 [  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
 [  0%] Built target actionlib_msgs_generate_messages_eus
 [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
-[  0%] Built target actionlib_generate_messages_nodejs
-[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
 [  0%] Built target actionlib_msgs_generate_messages_lisp
-[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
 [  0%] Built target actionlib_msgs_generate_messages_nodejs
-[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
 [  0%] Built target tf2_msgs_generate_messages_cpp
-[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
 [  0%] Built target tf2_msgs_generate_messages_lisp
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
 [  0%] Built target nav_msgs_generate_messages_eus
-[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
 [  0%] Built target geometry_msgs_generate_messages_lisp
-[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
 [  0%] Built target sensor_msgs_generate_messages_lisp
-[35m[1mScanning dependencies of target _robot_pose_ekf_generate_messages_check_deps_GetStatus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
 [  0%] Built target std_msgs_generate_messages_cpp
-[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
-[  0%] Built target actionlib_generate_messages_cpp
-[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
-[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target _robot_pose_ekf_generate_messages_check_deps_GetStatus[0m
 [  0%] Built target _robot_pose_ekf_generate_messages_check_deps_GetStatus
-[  0%] Built target tf2_msgs_generate_messages_py
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
-[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
-[  0%] Built target geometry_msgs_generate_messages_nodejs
-[  0%] Built target actionlib_generate_messages_lisp
-[  0%] Built target actionlib_msgs_generate_messages_py
-[35m[1mScanning dependencies of target tf_generate_messages_py[0m
-[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
-[  0%] Built target tf_generate_messages_py
-[  0%] Built target tf_generate_messages_lisp
-[  0%] Built target geometry_msgs_generate_messages_eus
-[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
-[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
-[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
-[  0%] Built target std_msgs_generate_messages_py
-[  0%] Built target rosgraph_msgs_generate_messages_py
-[  0%] Built target tf_generate_messages_cpp
-[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
-[  0%] Built target nav_msgs_generate_messages_nodejs
-[  0%] Built target actionlib_msgs_generate_messages_cpp
-[  0%] Built target nav_msgs_generate_messages_lisp
-[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
-[  0%] Built target tf2_msgs_generate_messages_nodejs
-[  0%] Built target geometry_msgs_generate_messages_cpp
-[  0%] Built target roscpp_generate_messages_eus
-[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
-[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
-[  0%] Built target roscpp_generate_messages_cpp
-[  0%] Built target roscpp_generate_messages_lisp
-[  0%] Built target tf2_msgs_generate_messages_eus
-[35m[1mScanning dependencies of target robot_pose_ekf_generate_messages_py[0m
-[35m[1mScanning dependencies of target gtest[0m
-[35m[1mScanning dependencies of target robot_pose_ekf_generate_messages_cpp[0m
-[  5%] [34m[1mGenerating Python code from SRV robot_pose_ekf/GetStatus[0m
-[ 11%] [34m[1mGenerating C++ code from robot_pose_ekf/GetStatus.srv[0m
-[ 17%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
-[ 23%] [34m[1mGenerating Python srv __init__.py for robot_pose_ekf[0m
-[ 23%] Built target robot_pose_ekf_generate_messages_cpp
-[35m[1mScanning dependencies of target robot_pose_ekf_generate_messages_eus[0m
-[ 29%] [34m[1mGenerating EusLisp code from robot_pose_ekf/GetStatus.srv[0m
-[ 29%] Built target robot_pose_ekf_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
 [35m[1mScanning dependencies of target robot_pose_ekf_generate_messages_nodejs[0m
-[ 35%] [34m[1mGenerating Javascript code from robot_pose_ekf/GetStatus.srv[0m
-[ 41%] [34m[1mGenerating EusLisp manifest code for robot_pose_ekf[0m
-[ 41%] Built target robot_pose_ekf_generate_messages_nodejs
-[35m[1mScanning dependencies of target robot_pose_ekf_generate_messages_lisp[0m
-[ 47%] [34m[1mGenerating Lisp code from robot_pose_ekf/GetStatus.srv[0m
-[ 47%] Built target robot_pose_ekf_generate_messages_lisp
-[ 47%] Built target robot_pose_ekf_generate_messages_eus
-[35m[1mScanning dependencies of target robot_pose_ekf[0m
-[35m[1mScanning dependencies of target robot_pose_ekf_generate_messages[0m
-[ 47%] Built target robot_pose_ekf_generate_messages
-[ 52%] [32mBuilding CXX object CMakeFiles/robot_pose_ekf.dir/src/odom_estimation.cpp.o[0m
-[ 58%] [32mBuilding CXX object CMakeFiles/robot_pose_ekf.dir/src/nonlinearanalyticconditionalgaussianodo.cpp.o[0m
+[  5%] [34m[1mGenerating Javascript code from robot_pose_ekf/GetStatus.srv[0m
+[  5%] Built target robot_pose_ekf_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  5%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  5%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  5%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  5%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  5%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  5%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  5%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  5%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  5%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  5%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  5%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[  5%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  5%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[  5%] Built target nav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  5%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[  5%] Built target nav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  5%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  5%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  5%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  5%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  5%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  5%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  5%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  5%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  5%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  5%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  5%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target gtest[0m
+[ 11%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
 In file included from [01m[K/usr/include/c++/8/vector:64[m[K,
                  from [01m[K/usr/src/googletest/googletest/include/gtest/gtest.h:57[m[K,
                  from [01m[K/usr/src/googletest/googletest/src/gtest-all.cc:38[m[K:
@@ -215,13 +196,32 @@ In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:67[m[K,
 [01m[K/usr/include/c++/8/bits/stl_iterator.h:987:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >[m[K’ changed in GCC 7.1
      [01;36m[K__niter_base[m[K(__gnu_cxx::__normal_iterator<_Iterator, _Container> __it)
      [01;36m[K^~~~~~~~~~~~[m[K
-[ 64%] [32mBuilding CXX object CMakeFiles/robot_pose_ekf.dir/src/odom_estimation_node.cpp.o[0m
-[ 70%] [32m[1mLinking CXX shared library ../../lib/libgtest.so[0m
-[ 70%] Built target gtest
+[ 17%] [32m[1mLinking CXX shared library ../../lib/libgtest.so[0m
+[ 17%] Built target gtest
+[35m[1mScanning dependencies of target robot_pose_ekf_generate_messages_cpp[0m
+[ 23%] [34m[1mGenerating C++ code from robot_pose_ekf/GetStatus.srv[0m
+[ 23%] Built target robot_pose_ekf_generate_messages_cpp
+[35m[1mScanning dependencies of target robot_pose_ekf_generate_messages_eus[0m
+[ 29%] [34m[1mGenerating EusLisp code from robot_pose_ekf/GetStatus.srv[0m
+[ 35%] [34m[1mGenerating EusLisp manifest code for robot_pose_ekf[0m
+[35m[1mScanning dependencies of target robot_pose_ekf_generate_messages_py[0m
+[ 41%] [34m[1mGenerating Python code from SRV robot_pose_ekf/GetStatus[0m
+[ 47%] [34m[1mGenerating Python srv __init__.py for robot_pose_ekf[0m
+[ 47%] Built target robot_pose_ekf_generate_messages_py
+[35m[1mScanning dependencies of target robot_pose_ekf_generate_messages_lisp[0m
+[ 52%] [34m[1mGenerating Lisp code from robot_pose_ekf/GetStatus.srv[0m
+[ 52%] Built target robot_pose_ekf_generate_messages_lisp
+[ 52%] Built target robot_pose_ekf_generate_messages_eus
+[35m[1mScanning dependencies of target robot_pose_ekf[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/robot_pose_ekf.dir/src/odom_estimation.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/robot_pose_ekf.dir/src/nonlinearanalyticconditionalgaussianodo.cpp.o[0m
+[35m[1mScanning dependencies of target robot_pose_ekf_generate_messages[0m
+[ 64%] Built target robot_pose_ekf_generate_messages
 [35m[1mScanning dependencies of target test_robot_pose_ekf[0m
-[ 76%] [32mBuilding CXX object CMakeFiles/test_robot_pose_ekf.dir/test/test_robot_pose_ekf.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/test_robot_pose_ekf.dir/test/test_robot_pose_ekf.cpp.o[0m
 [35m[1mScanning dependencies of target test_robot_pose_ekf_zero_covariance[0m
-[ 82%] [32mBuilding CXX object CMakeFiles/test_robot_pose_ekf_zero_covariance.dir/test/test_robot_pose_ekf_zero_covariance.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/test_robot_pose_ekf_zero_covariance.dir/test/test_robot_pose_ekf_zero_covariance.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/robot_pose_ekf.dir/src/odom_estimation_node.cpp.o[0m
 [ 88%] [32m[1mLinking CXX executable /home/pi/catkin_ws/devel/.private/robot_pose_ekf/lib/robot_pose_ekf/test_robot_pose_ekf[0m
 [ 88%] Built target test_robot_pose_ekf
 [ 94%] [32m[1mLinking CXX executable /home/pi/catkin_ws/devel/.private/robot_pose_ekf/lib/robot_pose_ekf/test_robot_pose_ekf_zero_covariance[0m

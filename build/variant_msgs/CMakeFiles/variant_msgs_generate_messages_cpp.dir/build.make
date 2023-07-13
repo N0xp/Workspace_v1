@@ -61,8 +61,8 @@ CMakeFiles/variant_msgs_generate_messages_cpp: /home/pi/catkin_ws/devel/.private
 
 /home/pi/catkin_ws/devel/.private/variant_msgs/include/variant_msgs/Test.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/pi/catkin_ws/devel/.private/variant_msgs/include/variant_msgs/Test.h: /home/pi/catkin_ws/src/variant/variant_msgs/msg/Test.msg
-/home/pi/catkin_ws/devel/.private/variant_msgs/include/variant_msgs/Test.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/pi/catkin_ws/devel/.private/variant_msgs/include/variant_msgs/Test.h: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/pi/catkin_ws/devel/.private/variant_msgs/include/variant_msgs/Test.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/pi/catkin_ws/devel/.private/variant_msgs/include/variant_msgs/Test.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/pi/catkin_ws/devel/.private/variant_msgs/include/variant_msgs/Test.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/variant_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from variant_msgs/Test.msg"
@@ -70,8 +70,8 @@ CMakeFiles/variant_msgs_generate_messages_cpp: /home/pi/catkin_ws/devel/.private
 
 /home/pi/catkin_ws/devel/.private/variant_msgs/include/variant_msgs/Variant.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/pi/catkin_ws/devel/.private/variant_msgs/include/variant_msgs/Variant.h: /home/pi/catkin_ws/src/variant/variant_msgs/msg/Variant.msg
-/home/pi/catkin_ws/devel/.private/variant_msgs/include/variant_msgs/Variant.h: /home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantType.msg
 /home/pi/catkin_ws/devel/.private/variant_msgs/include/variant_msgs/Variant.h: /home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantHeader.msg
+/home/pi/catkin_ws/devel/.private/variant_msgs/include/variant_msgs/Variant.h: /home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantType.msg
 /home/pi/catkin_ws/devel/.private/variant_msgs/include/variant_msgs/Variant.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/variant_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from variant_msgs/Variant.msg"
 	cd /home/pi/catkin_ws/src/variant/variant_msgs && /home/pi/catkin_ws/build/variant_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/variant/variant_msgs/msg/Variant.msg -Ivariant_msgs:/home/pi/catkin_ws/src/variant/variant_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p variant_msgs -o /home/pi/catkin_ws/devel/.private/variant_msgs/include/variant_msgs -e /opt/ros/noetic/share/gencpp/cmake/..

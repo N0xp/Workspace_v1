@@ -19,12 +19,12 @@ add_custom_target(variant_msgs_generate_messages ALL)
 
 get_filename_component(_filename "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Test.msg" NAME_WE)
 add_custom_target(_variant_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "variant_msgs" "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Test.msg" "std_msgs/Header:std_msgs/Bool:std_msgs/String"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "variant_msgs" "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Test.msg" "std_msgs/Bool:std_msgs/Header:std_msgs/String"
 )
 
 get_filename_component(_filename "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Variant.msg" NAME_WE)
 add_custom_target(_variant_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "variant_msgs" "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Variant.msg" "variant_msgs/VariantType:variant_msgs/VariantHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "variant_msgs" "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Variant.msg" "variant_msgs/VariantHeader:variant_msgs/VariantType"
 )
 
 get_filename_component(_filename "/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantHeader.msg" NAME_WE)
@@ -46,13 +46,13 @@ add_custom_target(_variant_msgs_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(variant_msgs
   "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Test.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/variant_msgs
 )
 _generate_msg_cpp(variant_msgs
   "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Variant.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantType.msg;/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantHeader.msg"
+  "/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantHeader.msg;/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantType.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/variant_msgs
 )
 _generate_msg_cpp(variant_msgs
@@ -103,13 +103,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS variant_msgs_generate_messages_cpp)
 _generate_msg_eus(variant_msgs
   "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Test.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/variant_msgs
 )
 _generate_msg_eus(variant_msgs
   "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Variant.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantType.msg;/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantHeader.msg"
+  "/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantHeader.msg;/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantType.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/variant_msgs
 )
 _generate_msg_eus(variant_msgs
@@ -160,13 +160,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS variant_msgs_generate_messages_eus)
 _generate_msg_lisp(variant_msgs
   "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Test.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/variant_msgs
 )
 _generate_msg_lisp(variant_msgs
   "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Variant.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantType.msg;/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantHeader.msg"
+  "/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantHeader.msg;/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantType.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/variant_msgs
 )
 _generate_msg_lisp(variant_msgs
@@ -217,13 +217,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS variant_msgs_generate_messages_lisp
 _generate_msg_nodejs(variant_msgs
   "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Test.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/variant_msgs
 )
 _generate_msg_nodejs(variant_msgs
   "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Variant.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantType.msg;/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantHeader.msg"
+  "/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantHeader.msg;/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantType.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/variant_msgs
 )
 _generate_msg_nodejs(variant_msgs
@@ -274,13 +274,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS variant_msgs_generate_messages_node
 _generate_msg_py(variant_msgs
   "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Test.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/variant_msgs
 )
 _generate_msg_py(variant_msgs
   "/home/pi/catkin_ws/src/variant/variant_msgs/msg/Variant.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantType.msg;/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantHeader.msg"
+  "/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantHeader.msg;/home/pi/catkin_ws/src/variant/variant_msgs/msg/VariantType.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/variant_msgs
 )
 _generate_msg_py(variant_msgs

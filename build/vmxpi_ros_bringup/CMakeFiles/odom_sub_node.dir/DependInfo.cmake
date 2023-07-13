@@ -18,8 +18,16 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/pi/catkin_ws/devel/.private/vmxpi_ros/include"
+  "/home/pi/catkin_ws/devel/.private/tf2_msgs/include"
+  "/home/pi/catkin_ws/devel/.private/move_base/include"
+  "/home/pi/catkin_ws/devel/.private/move_base_msgs/include"
+  "/home/pi/catkin_ws/src/geometry2/tf2_msgs/include"
+  "/home/pi/catkin_ws/src/geometry2/tf2/include"
+  "/home/pi/catkin_ws/src/geometry2/tf2_ros/include"
+  "/home/pi/catkin_ws/src/navigation/move_base/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/usr/include/eigen3"
   "/home/pi/catkin_ws/src/vmxpi_ros/vmxpi_ros_bringup/../vmxpi_ros_titan/include"
   "/home/pi/catkin_ws/src/vmxpi_ros/vmxpi_ros_bringup/../vmxpi_ros_navx/include"
   "/home/pi/catkin_ws/src/vmxpi_ros/vmxpi_ros_bringup/../vmxpi_ros_sensors/vmxpi_ros_cobra/include"

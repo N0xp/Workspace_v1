@@ -1,0 +1,1 @@
+/home/pi/catkin_ws/devel/.private/robot_discription/share/robot_discription/cmake/robot_discriptionConfig-version.cmake

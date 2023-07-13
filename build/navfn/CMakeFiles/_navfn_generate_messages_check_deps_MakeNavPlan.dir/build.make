@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build/navfn
 include CMakeFiles/_navfn_generate_messages_check_deps_MakeNavPlan.dir/progress.make
 
 CMakeFiles/_navfn_generate_messages_check_deps_MakeNavPlan:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py navfn /home/pi/catkin_ws/src/navigation/navfn/srv/MakeNavPlan.srv geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:std_msgs/Header
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py navfn /home/pi/catkin_ws/src/navigation/navfn/srv/MakeNavPlan.srv std_msgs/Header:geometry_msgs/Pose:geometry_msgs/PoseStamped:geometry_msgs/Point:geometry_msgs/Quaternion
 
 _navfn_generate_messages_check_deps_MakeNavPlan: CMakeFiles/_navfn_generate_messages_check_deps_MakeNavPlan
 _navfn_generate_messages_check_deps_MakeNavPlan: CMakeFiles/_navfn_generate_messages_check_deps_MakeNavPlan.dir/build.make

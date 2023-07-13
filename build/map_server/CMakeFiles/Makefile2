@@ -188,8 +188,8 @@ gtest/googlemock/gtest/clean: gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 # Target rules for target CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/all: CMakeFiles/clean_test_results_map_server.dir/all
 CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/all: CMakeFiles/tests.dir/all
+CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/all: CMakeFiles/clean_test_results_map_server.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/build.make CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/build.make CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/map_server/CMakeFiles --progress-num= "Built target _run_tests_map_server_rostest_test_rtest.xml"
@@ -324,8 +324,8 @@ CMakeFiles/_run_tests_map_server_gtest.dir/clean:
 # Target rules for target CMakeFiles/_run_tests_map_server.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_map_server.dir/all: CMakeFiles/_run_tests_map_server_gtest.dir/all
 CMakeFiles/_run_tests_map_server.dir/all: CMakeFiles/_run_tests_map_server_rostest.dir/all
+CMakeFiles/_run_tests_map_server.dir/all: CMakeFiles/_run_tests_map_server_gtest.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_map_server.dir/build.make CMakeFiles/_run_tests_map_server.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_map_server.dir/build.make CMakeFiles/_run_tests_map_server.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/map_server/CMakeFiles --progress-num= "Built target _run_tests_map_server"
@@ -570,6 +570,23 @@ CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
 # Target rules for target CMakeFiles/rtest.dir
 
 # All Build rule for target.
+CMakeFiles/rtest.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+CMakeFiles/rtest.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+CMakeFiles/rtest.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 CMakeFiles/rtest.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 CMakeFiles/rtest.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 CMakeFiles/rtest.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
@@ -589,23 +606,6 @@ CMakeFiles/rtest.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
 CMakeFiles/rtest.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
 CMakeFiles/rtest.dir/all: CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
 CMakeFiles/rtest.dir/all: CMakeFiles/nav_msgs_generate_messages_py.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-CMakeFiles/rtest.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-CMakeFiles/rtest.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f CMakeFiles/rtest.dir/build.make CMakeFiles/rtest.dir/depend
 	$(MAKE) -f CMakeFiles/rtest.dir/build.make CMakeFiles/rtest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/map_server/CMakeFiles --progress-num=18,19,20 "Built target rtest"
@@ -1253,9 +1253,9 @@ CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
 # Target rules for target CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir
 
 # All Build rule for target.
+CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/all: CMakeFiles/tests.dir/all
 CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/all: CMakeFiles/map_server_utest.dir/all
 CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/all: CMakeFiles/clean_test_results_map_server.dir/all
-CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/build.make CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/build.make CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/map_server/CMakeFiles --progress-num= "Built target _run_tests_map_server_gtest_map_server_utest"
@@ -1499,6 +1499,23 @@ CMakeFiles/nav_msgs_generate_messages_nodejs.dir/clean:
 # Target rules for target CMakeFiles/map_server.dir
 
 # All Build rule for target.
+CMakeFiles/map_server.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/map_server_image_loader.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+CMakeFiles/map_server.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 CMakeFiles/map_server.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 CMakeFiles/map_server.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 CMakeFiles/map_server.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
@@ -1518,23 +1535,6 @@ CMakeFiles/map_server.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
 CMakeFiles/map_server.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
 CMakeFiles/map_server.dir/all: CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
 CMakeFiles/map_server.dir/all: CMakeFiles/nav_msgs_generate_messages_py.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/map_server_image_loader.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-CMakeFiles/map_server.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f CMakeFiles/map_server.dir/build.make CMakeFiles/map_server.dir/depend
 	$(MAKE) -f CMakeFiles/map_server.dir/build.make CMakeFiles/map_server.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/map_server/CMakeFiles --progress-num=9,10 "Built target map_server"
@@ -1588,6 +1588,22 @@ CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
 # Target rules for target CMakeFiles/map_server_image_loader.dir
 
 # All Build rule for target.
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
@@ -1607,22 +1623,6 @@ CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/roscpp_generate_messages_
 CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
 CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
 CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/nav_msgs_generate_messages_py.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-CMakeFiles/map_server_image_loader.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f CMakeFiles/map_server_image_loader.dir/build.make CMakeFiles/map_server_image_loader.dir/depend
 	$(MAKE) -f CMakeFiles/map_server_image_loader.dir/build.make CMakeFiles/map_server_image_loader.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/map_server/CMakeFiles --progress-num=13,14 "Built target map_server_image_loader"
@@ -1676,6 +1676,22 @@ CMakeFiles/actionlib_msgs_generate_messages_eus.dir/clean:
 # Target rules for target CMakeFiles/map_server-map_saver.dir
 
 # All Build rule for target.
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
@@ -1695,22 +1711,6 @@ CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/roscpp_generate_messages_lis
 CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
 CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
 CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/nav_msgs_generate_messages_py.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-CMakeFiles/map_server-map_saver.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f CMakeFiles/map_server-map_saver.dir/build.make CMakeFiles/map_server-map_saver.dir/depend
 	$(MAKE) -f CMakeFiles/map_server-map_saver.dir/build.make CMakeFiles/map_server-map_saver.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/map_server/CMakeFiles --progress-num=11,12 "Built target map_server-map_saver"

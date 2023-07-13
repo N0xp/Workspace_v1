@@ -9,6 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/pi/catkin_ws/devel/.private/tf2_kdl:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/pi/catkin_ws/devel/.private/tf2_kdl/lib:$LD_LIBRARY_PATH"
+export PATH="/home/pi/catkin_ws/devel/bin:$PATH"
 export PKG_CONFIG_PATH="/home/pi/catkin_ws/devel/.private/tf2_kdl/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/pi/catkin_ws/build/tf2_kdl'
 export PYTHONPATH="/home/pi/catkin_ws/devel/.private/tf2_kdl/lib/python3/dist-packages:$PYTHONPATH"

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build/variant_msgs
 include CMakeFiles/_variant_msgs_generate_messages_check_deps_Variant.dir/progress.make
 
 CMakeFiles/_variant_msgs_generate_messages_check_deps_Variant:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py variant_msgs /home/pi/catkin_ws/src/variant/variant_msgs/msg/Variant.msg variant_msgs/VariantType:variant_msgs/VariantHeader
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py variant_msgs /home/pi/catkin_ws/src/variant/variant_msgs/msg/Variant.msg variant_msgs/VariantHeader:variant_msgs/VariantType
 
 _variant_msgs_generate_messages_check_deps_Variant: CMakeFiles/_variant_msgs_generate_messages_check_deps_Variant
 _variant_msgs_generate_messages_check_deps_Variant: CMakeFiles/_variant_msgs_generate_messages_check_deps_Variant.dir/build.make

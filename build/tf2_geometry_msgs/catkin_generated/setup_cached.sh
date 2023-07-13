@@ -9,6 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/pi/catkin_ws/devel/.private/tf2_geometry_msgs:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/pi/catkin_ws/devel/.private/tf2_geometry_msgs/lib:$LD_LIBRARY_PATH"
+export PATH="/home/pi/catkin_ws/devel/bin:$PATH"
 export PKG_CONFIG_PATH="/home/pi/catkin_ws/devel/.private/tf2_geometry_msgs/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/pi/catkin_ws/build/tf2_geometry_msgs'
 export PYTHONPATH="/home/pi/catkin_ws/devel/.private/tf2_geometry_msgs/lib/python3/dist-packages:$PYTHONPATH"

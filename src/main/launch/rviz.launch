@@ -4,20 +4,20 @@
   <!-- <node pkg="tf" type="static_transform_publisher" name="map_odom_broadcaster"
       args="0 0 0 0 0 0 map odom 100"/> -->
 
-  <node pkg="tf" type="static_transform_publisher" name="imu_broadcaster" args="0 0.06 0.02 0 0 0 base_link Imu_link 30" />
-  <node pkg="tf" type="static_transform_publisher" name="base_link_broadcaster" args="0 0 0.09 0 0 0 base_footprint base_link 30" />
+  <!-- <node pkg="tf" type="static_transform_publisher" name="imu_broadcaster" args="0 0.06 0.02 0 0 0 base_link Imu_link 30" />
+  <node pkg="tf" type="static_transform_publisher" name="base_link_broadcaster" args="0 0 0.09 0 0 0 base_footprint base_link 30" /> -->
   <!-- <node pkg="tf" type="static_transform_publisher" name="map_to_odom" args="0 0 0 0 0 0 map odom 30" /> -->
 
-  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find main)/urdf/myrobot.xacro'" />    
-  <arg name="rviz_config_file" default="$(find main)/config/robot.rviz"/>
+  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find robot_discription)/urdf/skid_steer.xacro'" />    
+  <arg name="rviz_config_file" default="$(find robot_discription)/config/robot.rviz"/>
   
   <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
   </node>
 
   <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher">
   </node> 
-
-  <node pkg="robot_pose_ekf" type="robot_pose_ekf" name="robot_pose_ekf">
+  <include file="/home/pi/catkin_ws/src/ydlidar_ros_driver/launch/X2.launch"/>
+  <!-- <node pkg="robot_pose_ekf" type="robot_pose_ekf" name="robot_pose_ekf">
   <param name="output_frame" value="odom_combined"/>
   <param name="base_footprint_frame" value="base_footprint"/>
 
@@ -32,9 +32,28 @@
     <param name="self_diagnose" value="false"/>
 
     <remap from="odom" to="odom_pub"/>
-</node>     
- <node pkg="vmxpi_ros_bringup" type="odom_sub_node" name="odom_sub_node" />
-    <!-- <node pkg="rviz" type="rviz" name="rviz" args = "-d $(arg rviz_config_file)"/> -->
+</node>      -->
+<node name="move_base" pkg="move_base" type="move_base" respawn="false" output="screen">
+    <!-- <param name="base_global_planner" type="string" value="global_planner/GlobalPlanner" /> -->
+    <param name="base_global_planner" value="navfn/NavfnROS"/>
+    <param name="base_local_planner" value="base_local_planner/TrajectoryPlannerROS"/>
+    <param name="simple_goal_type" value="geometry_msgs/PoseStamped"/>
+    <param name="simple_goal_tolerance" value="0.2"/>
+    <param name="goal_tolerance" value="0.2"/>
+    <!-- <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" /> -->
+    <rosparam file="$(find robot_discription)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find robot_discription)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find robot_discription)/config/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find robot_discription)/config/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find robot_discription)/config/base_local_planner_params.yaml" command="load" />
+
+    <param name="controller_frequency" value="30.0" />
+    <param name="planner_frequency" value="10.0" />
+  </node>
+
+
+ <node pkg="vmxpi_ros_bringup" type="drive_keyboard_teleop_node" name="drive_keyboard_teleop_node" output="screen" />
+    <node pkg="rviz" type="rviz" name="rviz" args = "-d $(arg rviz_config_file)"/>
     
 
 </launch>

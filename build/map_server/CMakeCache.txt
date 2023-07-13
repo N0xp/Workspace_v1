@@ -528,7 +528,7 @@ map_server_BINARY_DIR:STATIC=/home/pi/catkin_ws/build/map_server
 map_server_SOURCE_DIR:STATIC=/home/pi/catkin_ws/src/navigation/map_server
 
 //Dependencies for the target
-map_server_image_loader_LIB_DEPENDS:STATIC=general;/usr/lib/arm-linux-gnueabihf/libBulletDynamics.so;general;/usr/lib/arm-linux-gnueabihf/libBulletCollision.so;general;/usr/lib/arm-linux-gnueabihf/libLinearMath.so;general;/usr/lib/arm-linux-gnueabihf/libBulletSoftBody.so;general;/opt/ros/noetic/lib/libroscpp.so;general;/usr/lib/arm-linux-gnueabihf/libboost_filesystem.so;general;/opt/ros/noetic/lib/librosconsole.so;general;/opt/ros/noetic/lib/librosconsole_log4cxx.so;general;/opt/ros/noetic/lib/librosconsole_backend_interface.so;general;/usr/lib/arm-linux-gnueabihf/liblog4cxx.so;general;/usr/lib/arm-linux-gnueabihf/libboost_regex.so;general;/opt/ros/noetic/lib/libxmlrpcpp.so;general;/opt/ros/noetic/lib/libtf2.so;general;/opt/ros/noetic/lib/libroscpp_serialization.so;general;/opt/ros/noetic/lib/librostime.so;general;/opt/ros/noetic/lib/libcpp_common.so;general;/usr/lib/arm-linux-gnueabihf/libboost_system.so;general;/usr/lib/arm-linux-gnueabihf/libboost_thread.so;general;-lpthread;general;/usr/lib/arm-linux-gnueabihf/libboost_chrono.so;general;/usr/lib/arm-linux-gnueabihf/libboost_date_time.so;general;/usr/lib/arm-linux-gnueabihf/libboost_atomic.so;general;/usr/lib/arm-linux-gnueabihf/libconsole_bridge.so.0.4;general;/usr/lib/arm-linux-gnueabihf/libSDLmain.a;general;/usr/lib/arm-linux-gnueabihf/libSDL.so;general;-pthread;general;/usr/lib/arm-linux-gnueabihf/libSDL_image.so;
+map_server_image_loader_LIB_DEPENDS:STATIC=general;/usr/lib/arm-linux-gnueabihf/libBulletDynamics.so;general;/usr/lib/arm-linux-gnueabihf/libBulletCollision.so;general;/usr/lib/arm-linux-gnueabihf/libLinearMath.so;general;/usr/lib/arm-linux-gnueabihf/libBulletSoftBody.so;general;/opt/ros/noetic/lib/libroscpp.so;general;/usr/lib/arm-linux-gnueabihf/libboost_filesystem.so;general;/opt/ros/noetic/lib/librosconsole.so;general;/opt/ros/noetic/lib/librosconsole_log4cxx.so;general;/opt/ros/noetic/lib/librosconsole_backend_interface.so;general;/usr/lib/arm-linux-gnueabihf/liblog4cxx.so;general;/usr/lib/arm-linux-gnueabihf/libboost_regex.so;general;/opt/ros/noetic/lib/libxmlrpcpp.so;general;/home/pi/catkin_ws/devel/.private/tf2/lib/libtf2.so;general;/opt/ros/noetic/lib/libroscpp_serialization.so;general;/opt/ros/noetic/lib/librostime.so;general;/opt/ros/noetic/lib/libcpp_common.so;general;/usr/lib/arm-linux-gnueabihf/libboost_system.so;general;/usr/lib/arm-linux-gnueabihf/libboost_thread.so;general;-lpthread;general;/usr/lib/arm-linux-gnueabihf/libboost_chrono.so;general;/usr/lib/arm-linux-gnueabihf/libboost_date_time.so;general;/usr/lib/arm-linux-gnueabihf/libboost_atomic.so;general;/usr/lib/arm-linux-gnueabihf/libconsole_bridge.so.0.4;general;/usr/lib/arm-linux-gnueabihf/libSDLmain.a;general;/usr/lib/arm-linux-gnueabihf/libSDL.so;general;-pthread;general;/usr/lib/arm-linux-gnueabihf/libSDL_image.so;
 
 //The directory containing a CMake configuration file for message_generation.
 message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
@@ -573,10 +573,10 @@ rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for tf2.
-tf2_DIR:PATH=/opt/ros/noetic/share/tf2/cmake
+tf2_DIR:PATH=/home/pi/catkin_ws/devel/share/tf2/cmake
 
 //The directory containing a CMake configuration file for tf2_msgs.
-tf2_msgs_DIR:PATH=/opt/ros/noetic/share/tf2_msgs/cmake
+tf2_msgs_DIR:PATH=/home/pi/catkin_ws/devel/share/tf2_msgs/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake

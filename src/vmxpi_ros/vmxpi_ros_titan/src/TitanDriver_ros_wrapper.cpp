@@ -48,10 +48,10 @@ TitanDriverROSWrapper::TitanDriverROSWrapper(ros::NodeHandle *nh, VMXPi *vmx) :
     encdist2_pub = nh->advertise<std_msgs::Float32>("titan/encoder2/distance", 1);
     encdist3_pub = nh->advertise<std_msgs::Float32>("titan/encoder3/distance", 1);
             
-    rpm0_pub = nh->advertise<std_msgs::Int16>("titan/motor0/rpm", 1);
-    rpm1_pub = nh->advertise<std_msgs::Int16>("titan/motor1/rpm", 1);
-    rpm2_pub = nh->advertise<std_msgs::Int16>("titan/motor2/rpm", 1);
-    rpm3_pub = nh->advertise<std_msgs::Int16>("titan/motor3/rpm", 1);
+    rpm0_pub = nh->advertise<std_msgs::Int16>("titan/motor0/rpm", 50);
+    rpm1_pub = nh->advertise<std_msgs::Int16>("titan/motor1/rpm", 50);
+    rpm2_pub = nh->advertise<std_msgs::Int16>("titan/motor2/rpm", 50);
+    rpm3_pub = nh->advertise<std_msgs::Int16>("titan/motor3/rpm", 50);
 
     limitswitch_pub = nh->advertise<vmxpi_ros::LimitSwitch>("titan/limit_switch", 1);
     mcutemp_pub = nh->advertise<std_msgs::Float32>("titan/mcu_temp", 1);

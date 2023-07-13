@@ -1085,6 +1085,47 @@ CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
 # Target rules for target CMakeFiles/amcl.dir
 
 # All Build rule for target.
+CMakeFiles/amcl.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/actionlib_generate_messages_lisp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/amcl_gencfg.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/amcl_map.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/topic_tools_generate_messages_nodejs.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/amcl.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
 CMakeFiles/amcl.dir/all: CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
 CMakeFiles/amcl.dir/all: CMakeFiles/nav_msgs_generate_messages_py.dir/all
 CMakeFiles/amcl.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/all
@@ -1114,47 +1155,6 @@ CMakeFiles/amcl.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 CMakeFiles/amcl.dir/all: CMakeFiles/amcl_sensors.dir/all
 CMakeFiles/amcl.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 CMakeFiles/amcl.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/amcl_gencfg.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/amcl_map.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/topic_tools_generate_messages_lisp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/actionlib_generate_messages_lisp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/dynamic_reconfigure_gencfg.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/topic_tools_generate_messages_nodejs.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/amcl.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(MAKE) -f CMakeFiles/amcl.dir/build.make CMakeFiles/amcl.dir/depend
 	$(MAKE) -f CMakeFiles/amcl.dir/build.make CMakeFiles/amcl.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/amcl/CMakeFiles --progress-num=1,2 "Built target amcl"
@@ -1397,11 +1397,11 @@ CMakeFiles/nav_msgs_generate_messages_nodejs.dir/clean:
 # Target rules for target CMakeFiles/tests.dir
 
 # All Build rule for target.
-CMakeFiles/tests.dir/all: CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/all
 CMakeFiles/tests.dir/all: CMakeFiles/amcl_willow-full-0.05.pgm.dir/all
 CMakeFiles/tests.dir/all: CMakeFiles/amcl_rosie_localization_stage.bag.dir/all
 CMakeFiles/tests.dir/all: CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/all
 CMakeFiles/tests.dir/all: CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/all
+CMakeFiles/tests.dir/all: CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/all
 CMakeFiles/tests.dir/all: CMakeFiles/amcl_global_localization_stage_indexed.bag.dir/all
 CMakeFiles/tests.dir/all: CMakeFiles/amcl_willow-full.pgm.dir/all
 CMakeFiles/tests.dir/all: CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/all
@@ -1513,11 +1513,11 @@ CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/clean:
 # Target rules for target CMakeFiles/download_extra_data.dir
 
 # All Build rule for target.
-CMakeFiles/download_extra_data.dir/all: CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/all
 CMakeFiles/download_extra_data.dir/all: CMakeFiles/amcl_willow-full-0.05.pgm.dir/all
 CMakeFiles/download_extra_data.dir/all: CMakeFiles/amcl_rosie_localization_stage.bag.dir/all
 CMakeFiles/download_extra_data.dir/all: CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/all
 CMakeFiles/download_extra_data.dir/all: CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/all
+CMakeFiles/download_extra_data.dir/all: CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/all
 CMakeFiles/download_extra_data.dir/all: CMakeFiles/amcl_global_localization_stage_indexed.bag.dir/all
 CMakeFiles/download_extra_data.dir/all: CMakeFiles/amcl_willow-full.pgm.dir/all
 CMakeFiles/download_extra_data.dir/all: CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/all
@@ -1953,7 +1953,7 @@ CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
 # Target rules for target CMakeFiles/run_tests_amcl_rostest.dir
 
 # All Build rule for target.
-CMakeFiles/run_tests_amcl_rostest.dir/all: CMakeFiles/run_tests_amcl_rostest_test_small_loop_prf.xml.dir/all
+CMakeFiles/run_tests_amcl_rostest.dir/all: CMakeFiles/run_tests_amcl_rostest_test_rosie_multilaser.xml.dir/all
 CMakeFiles/run_tests_amcl_rostest.dir/all: CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/all
 CMakeFiles/run_tests_amcl_rostest.dir/all: CMakeFiles/run_tests_amcl_rostest_test_global_localization_stage.xml.dir/all
 CMakeFiles/run_tests_amcl_rostest.dir/all: CMakeFiles/run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/all
@@ -1961,7 +1961,7 @@ CMakeFiles/run_tests_amcl_rostest.dir/all: CMakeFiles/run_tests_amcl_rostest_tes
 CMakeFiles/run_tests_amcl_rostest.dir/all: CMakeFiles/run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/all
 CMakeFiles/run_tests_amcl_rostest.dir/all: CMakeFiles/run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/all
 CMakeFiles/run_tests_amcl_rostest.dir/all: CMakeFiles/run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/all
-CMakeFiles/run_tests_amcl_rostest.dir/all: CMakeFiles/run_tests_amcl_rostest_test_rosie_multilaser.xml.dir/all
+CMakeFiles/run_tests_amcl_rostest.dir/all: CMakeFiles/run_tests_amcl_rostest_test_small_loop_prf.xml.dir/all
 	$(MAKE) -f CMakeFiles/run_tests_amcl_rostest.dir/build.make CMakeFiles/run_tests_amcl_rostest.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests_amcl_rostest.dir/build.make CMakeFiles/run_tests_amcl_rostest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/amcl/CMakeFiles --progress-num= "Built target run_tests_amcl_rostest"
@@ -2393,15 +2393,15 @@ CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean:
 # Target rules for target CMakeFiles/_run_tests_amcl_rostest.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_amcl_rostest.dir/all: CMakeFiles/_run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/all
-CMakeFiles/_run_tests_amcl_rostest.dir/all: CMakeFiles/_run_tests_amcl_rostest_test_rosie_multilaser.xml.dir/all
+CMakeFiles/_run_tests_amcl_rostest.dir/all: CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/all
 CMakeFiles/_run_tests_amcl_rostest.dir/all: CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/all
 CMakeFiles/_run_tests_amcl_rostest.dir/all: CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/all
 CMakeFiles/_run_tests_amcl_rostest.dir/all: CMakeFiles/_run_tests_amcl_rostest_test_global_localization_stage.xml.dir/all
 CMakeFiles/_run_tests_amcl_rostest.dir/all: CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir/all
 CMakeFiles/_run_tests_amcl_rostest.dir/all: CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/all
 CMakeFiles/_run_tests_amcl_rostest.dir/all: CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/all
-CMakeFiles/_run_tests_amcl_rostest.dir/all: CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/all
+CMakeFiles/_run_tests_amcl_rostest.dir/all: CMakeFiles/_run_tests_amcl_rostest_test_basic_localization_stage.xml.dir/all
+CMakeFiles/_run_tests_amcl_rostest.dir/all: CMakeFiles/_run_tests_amcl_rostest_test_rosie_multilaser.xml.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_amcl_rostest.dir/build.make CMakeFiles/_run_tests_amcl_rostest.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_amcl_rostest.dir/build.make CMakeFiles/_run_tests_amcl_rostest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/amcl/CMakeFiles --progress-num= "Built target _run_tests_amcl_rostest"
@@ -3024,8 +3024,8 @@ CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean:
 # Target rules for target CMakeFiles/amcl_sensors.dir
 
 # All Build rule for target.
-CMakeFiles/amcl_sensors.dir/all: CMakeFiles/amcl_pf.dir/all
 CMakeFiles/amcl_sensors.dir/all: CMakeFiles/amcl_map.dir/all
+CMakeFiles/amcl_sensors.dir/all: CMakeFiles/amcl_pf.dir/all
 	$(MAKE) -f CMakeFiles/amcl_sensors.dir/build.make CMakeFiles/amcl_sensors.dir/depend
 	$(MAKE) -f CMakeFiles/amcl_sensors.dir/build.make CMakeFiles/amcl_sensors.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/catkin_ws/build/amcl/CMakeFiles --progress-num=17,18,19,20 "Built target amcl_sensors"

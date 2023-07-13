@@ -34,10 +34,10 @@ TitanDriver::TitanDriver(int deviceID_set, VMXCAN *can_)
         ConfigureMotor(2);
         ConfigureMotor(3);
         
-        ConfigureEncoder(0, 52.0, 1464.0, 1/1.0);
-        ConfigureEncoder(1, 52.0, 1464.0, 1/1.0);
-        ConfigureEncoder(2, 52.0, 1464.0, 1/1.0);
-        ConfigureEncoder(3, 52.0, 1464.0, 1/1.0);
+        ConfigureEncoder(0,62.5, 1464.0, 1/1.0);
+        ConfigureEncoder(1,62.5, 1464.0, 1/1.0);
+        ConfigureEncoder(2,62.5, 1464.0, 1/1.0);
+        ConfigureEncoder(3,62.5, 1464.0, 1/1.0);
     }
     VMXErrorCode vmxerr;
     try {
@@ -81,10 +81,10 @@ TitanDriver::TitanDriver(int deviceID_set, int frequency_set, VMXCAN *can_)
             ConfigureMotor(2);
             ConfigureMotor(3);
             
-            ConfigureEncoder(0, 51.0, 1464.0, 1/1.0);
-            ConfigureEncoder(1, 51.0, 1464.0, 1/1.0);
-            ConfigureEncoder(2, 51.0, 1464.0, 1/1.0);
-            ConfigureEncoder(3, 51.0, 1464.0, 1/1.0);
+            ConfigureEncoder(0, 62.5, 1464.0, 1/1.0);
+            ConfigureEncoder(1, 62.5, 1464.0, 1/1.0);
+            ConfigureEncoder(2, 62.5, 1464.0, 1/1.0);
+            ConfigureEncoder(3, 62.5, 1464.0, 1/1.0);
         }
     }
     VMXErrorCode vmxerr;

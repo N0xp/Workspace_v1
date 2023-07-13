@@ -1,0 +1,1 @@
+/home/pi/catkin_ws/devel/.private/move_robot/share/move_robot/cmake/move_robotConfig-version.cmake

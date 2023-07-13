@@ -1,0 +1,3 @@
+Symlinking /home/pi/catkin_ws/devel/lib/pkgconfig/robot_discription.pc
+Symlinking /home/pi/catkin_ws/devel/share/robot_discription/cmake/robot_discriptionConfig.cmake
+Symlinking /home/pi/catkin_ws/devel/share/robot_discription/cmake/robot_discriptionConfig-version.cmake

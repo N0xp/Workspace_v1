@@ -1,0 +1,1 @@
+/home/pi/catkin_ws/devel/.private/move_robot/lib/pkgconfig/move_robot.pc
